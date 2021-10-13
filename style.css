@@ -1,0 +1,214 @@
+* 
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+main
+{
+    background-color: black;
+}
+
+header
+{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+    header .header_logo
+    {
+        padding: 0;
+        margin: 0;
+        position: relative;
+        left: 0;
+        text-decoration: none;
+        font-size: 30px;
+        line-height: 30px;
+        color: black;
+    }
+
+    header .header_login
+    {
+        padding: 0;
+        margin: 0;
+        float: right;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+
+ .header_separate_line a
+    {
+        border-top: 1px solid rgb(196, 196, 196);
+        position: relative;  /*不知道為什麼這裡把原本的absolut 改為relative就能顯示在畫面上了 */
+        top: 42px;
+        left: 0;
+        display: block;
+        z-index: 9;
+        white-space: nowrap
+    }
+
+header ul
+{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    overflow: hidden;
+    padding: 0px;
+    list-style: none;
+}
+
+nav
+{
+    margin: 0 auto;
+    display: table;
+}
+
+header li
+{
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+header li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.big_banner
+{   
+    height: 500px;
+    background-image: url(./images/big_banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.big_banner_container
+{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+
+.big_banner_text
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.big_banner_text h1
+{
+    color: white;
+    font-size: 80px;
+}
+
+.big_banner_text p
+{
+    color: white;
+    font-size: 30px;
+}
+
+.big_banner_text .button
+{
+    margin-left: 46%;
+    text-decoration: none;
+    background-color: #1637ec;
+    text-align: center;
+    border: none;
+    cursor:pointer;
+    font-size: 16px;
+    padding: 15px 30px;
+    color: white;
+}
+.small_banners
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+.small_banner_l
+{   
+    /* height: 620px; */
+    background-image: url(./images/small_banner_l.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    float: left;
+    width: 60%;
+}
+
+.small_banner_container
+{
+    width: 700px;
+    height: 100%;
+    margin: auto;
+}
+
+.small_banner_r
+{
+    /* height: 620px; */
+    background-image: url(./images/small_banner_r.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    width: 40%;
+}
+
+.small_banner_text
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.small_banner_l h1
+{
+    color: white;
+    font-size: 80px;
+}
+
+.small_banner_l p
+{
+    color: white;
+    font-size: 30px;
+}
+
+.small_banner_r h1
+{
+    color: white;
+    font-size: 80px;
+}
+
+.small_banner_r p
+{
+    color: white;
+    font-size: 30px;
+}
+
+.small_banners .button
+{
+    margin-left: 46%;
+    text-decoration: none;
+    background-color: #1637ec;
+    text-align: center;
+    border: none;
+    cursor:pointer;
+    font-size: 16px;
+    padding: 15px 30px;
+    color: white;
+}
