@@ -2,6 +2,7 @@
 {
     -webkit-box-sizing:border-box;
     box-sizing: border-box;
+    
 }
 
 body
@@ -44,6 +45,27 @@ header
         line-height: 30px;
     }
 
+    header ul
+    {
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        overflow: hidden;
+        padding: 0px;
+        list-style: none;
+    }
+
+    header li
+    {
+        display: inline-block;
+        margin: 0px 20px;
+    }
+
+    header li a
+    {
+        text-decoration: none;
+        color: black;
+    }
 
  .header_separate_line a
     {
@@ -56,32 +78,10 @@ header
         white-space: nowrap
     }
 
-header ul
-{
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
-    overflow: hidden;
-    padding: 0px;
-    list-style: none;
-}
-
 nav
 {
     margin: 0 auto;
     display: table;
-}
-
-header li
-{
-    display: inline-block;
-    margin: 0px 20px;
-}
-
-header li a
-{
-    text-decoration: none;
-    color: black;
 }
 
 .big_banner
@@ -95,7 +95,7 @@ header li a
 
 .big_banner_container
 {
-    width: 1200px;
+    max-width: 1200px;
     height: 100%;
     margin: 0 auto;
     position: relative;
@@ -108,39 +108,54 @@ header li a
     padding-top: 10%;
 }
 
-.big_banner_text h1
-{
-    color: white;
-    font-size: 80px;
-    width: 63%;
-}
+    .big_banner_text h1
+    {
+        color: white;
+        font-size: 70px;
+        width: 63%;
+    }
 
-.big_banner_text p
-{
-    color: white;
-    font-size: 30px;
-    width: 63%;
-}
+    .big_banner_text p
+    {
+        color: white;
+        font-size: 30px;
+        width: 63%;
+    }
 
-.big_banner_text .button
-{
-    /* margin-left: 46%; */
-    text-decoration: none;
-    background-color: #1637ec;
-    text-align: center;
-    border: none;
-    cursor:pointer;
-    font-size: 16px;
-    padding: 15px 30px;
-    color: white;
-    transform: translate(290%, 50%);
-    position: absolute;
-}
+    .big_banner_text .button
+    {
+        text-decoration: none;
+        background-color: #1637ec;
+        text-align: center;
+        border: none;
+        cursor:pointer;
+        font-size: 16px;
+        padding: 15px 30px;
+        color: white;
+        transform: translate(-18%, 50%);
+        left: 50%;
+        position: absolute;
+    }
+
 .small_banners
 {
     width: 100%;
     overflow: hidden;
 }
+
+    .small_banners h1
+    {
+        color: white;
+        font-size: 50px;
+        width: 63%;
+    }
+
+    .small_banners p
+    {
+        color: white;
+        font-size: 20px;
+        width: 63%;
+    }
 
 .small_banner_l
 {   
@@ -179,20 +194,6 @@ header li a
     padding-top: 10%;
 }
 
-.small_banners h1
-{
-    color: white;
-    font-size: 50px;
-    width: 63%;
-}
-
-.small_banners p
-{
-    color: white;
-    font-size: 20px;
-    width: 63%;
-}
-
 .small_banner_text .button
 {
     text-decoration: none;
@@ -210,16 +211,169 @@ footer
     max-width: 1520px;
     width: 100%;
     margin: 0 auto;
-
     background-color: white;
-
-
 }
 
-footer h3
+    footer h3
+    {
+        text-align: center;
+        padding: 2%;
+        font-size: 16px;
+        line-height: 35px;
+    }
+
+.background_cool_gray
 {
-    text-align: center;
-    padding: 2%;
-    font-size: 16px;
-    line-height: 35px;
+    background-color: #f2f2f2;
 }
+
+.simulate_image_l
+{
+    background-image: url(./images/lap_top2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 318px;
+    float: left;
+    margin-top: 5%;
+}
+
+.flow_image_l
+{
+    background-image: url(./images/flow.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 394px;
+    float: left;
+    margin-top: 5%;
+}
+
+.introduce_r
+{
+    float: left;
+    width: 50%
+}
+
+article
+{
+    background-color: white;
+    padding-bottom: 3%;
+}
+
+.article_container
+{
+    max-width: 1520px;
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.introduce_text_container
+{
+    max-width: 80%;
+    margin: 0 auto;
+}
+    .introduce_text_container h1
+    {
+        color: black;
+        font-size: 70px;
+    }
+
+    .introduce_text_container h3
+    {
+        color: black;
+        font-size: 40px;
+    }
+
+.introduce_video_container
+{
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 3%;
+    border-top: 1px solid rgb(196, 196, 196);
+}
+
+    .introduce_video_container a
+    {
+        text-decoration: none;
+        color: #1637ec;
+        display: block;
+        padding-top: 3%;
+    }
+
+    .introduce_video_container button
+    {
+        margin-right: 2%;
+    }
+
+.feature_nav
+{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.feature_item
+{
+    width: 100%; /* 如果要換行，這個 width 才重要*/
+    margin: 0 10px 10px;
+    text-align: center;
+    background-color: white;
+    margin-top: 2%;
+}
+
+    .feature_item h3
+    {
+        color: black;
+        font-size: 40px;
+    }
+
+    .feature_item img
+    {
+        width: 100%;
+        vertical-align: top;
+    }
+
+.feature_image
+{
+    width: 15%;
+    margin: 0 auto;
+    padding-bottom: 10%
+}
+
+#video_light_box
+{
+    position: fixed;
+    width: 60%;
+    height: 44%;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    left: 0;
+    right: 1px;
+    top: 0;
+    bottom: 0;
+    display: none;
+    box-shadow:3px 6px 10px 1px #919191;
+    padding-top: 1.5%;
+}
+
+    #video_light_box video
+    {
+        width: 100%;
+    }
+
+    #video_light_box .video_closebtn
+    {
+        cursor: pointer;
+        font-size: 16px;
+        position: absolute;
+        color: white;
+        top: 0;
+        right: 0;
+        background-color: black;
+        padding: 0.4%;
+    }
