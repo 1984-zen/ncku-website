@@ -509,3 +509,41 @@ article
 {
     display: inline-block;
 }
+
+.explore_genomics
+{
+    max-width: 960px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 1%;
+}
+
+    .explore_genomics h3
+    {
+        font-size: 40px;
+    }
+
+    .explore_genomics .button
+    {
+        text-decoration: none;
+        background-color: #1637ec;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 6px 20px;
+        color: white;
+        display: inline-block;
+    }
+
+    .explore_genomics input
+    {
+        max-width: 40%;
+        width: 30%;
+        margin-right: 1%;
+    }
+
+    .explore_genomics form
+    {
+        display: inline;
+    }
