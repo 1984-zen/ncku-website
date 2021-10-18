@@ -5,6 +5,12 @@
     
 }
 
+h3
+{
+    font-size: 40px;
+    color: black;
+}
+
 body
 {
     margin: 0;
@@ -135,6 +141,7 @@ nav
         transform: translate(-18%, 50%);
         left: 50%;
         position: absolute;
+        display: inline-block;
     }
 
 .small_banners
@@ -204,6 +211,7 @@ nav
     font-size: 16px;
     padding: 15px 30px;
     color: white;
+    display: inline-block;
 }
 
 footer
@@ -268,6 +276,10 @@ article
     max-width: 1520px;
     margin: 0 auto;
     height: auto;
+}
+
+.article_container_hidden
+{
     overflow: hidden;
 }
 
@@ -377,3 +389,123 @@ article
         background-color: black;
         padding: 0.4%;
     }
+
+.about_us_text_container
+{
+    max-width: 816px;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 3%;
+}
+
+    .about_us_text_container img
+    {
+        vertical-align: text-top;
+    }
+
+    .about_us_text_container h1
+    {
+        font-size: 40px;
+        color: black;
+        display: inline-block;
+        padding-left: 2%;
+    }
+
+    .about_us_text_container > p
+    {
+        padding-left: 24%;
+    }
+
+.our_mission
+{
+    float: left;
+    width: 50%;
+}
+
+    .our_mission h3
+    {
+        font-size: 30px;
+        color: black;
+    }
+
+.our_vision
+{
+    float: left;
+    width: 50%;
+}
+
+    .our_vision h3
+    {
+        font-size: 30px;
+        color: black;
+    }
+
+.our_research_card .button
+    {
+        text-decoration: none;
+        background-color: #1637ec;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 15px 30px;
+        color: white;
+        display: inline-block;
+    }
+
+.our_research_card
+{
+    width:20%;
+    margin: auto;
+    box-shadow: 3px 6px 10px 1px #919191;
+    padding-bottom: 2%;
+}
+
+    .our_research_card .small_banner_thumbnaill
+    {
+        padding: 2%;
+    }
+
+    .our_research_card .small_banner_thumbnaill img
+    {
+        width: 100%;
+        vertical-align: bottom;
+    }
+
+    .our_research_card p
+    {
+        padding: 0 2%;
+    }
+
+    .our_research_card .blue_button
+    {
+        text-align: center;
+    }
+
+.member
+{
+    margin-bottom: 2%;
+}
+
+.member h4
+{
+    display: inline-block;
+    width: 17%;
+    margin: 5px 0;
+}
+
+    .member h4 a
+    {
+        text-decoration: none;
+        color: #1637ec;
+    }
+
+    .member p
+    {
+        margin: 0;
+    }
+
+.member_title
+{
+    display: inline-block;
+}
