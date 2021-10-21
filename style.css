@@ -184,10 +184,15 @@ nav a
     position: relative;
 }
 
-.big_banner_solution
-{
-    background-image: url(./images/big_banner2.jpg);
-}
+    .big_banner_index
+    {
+        background-image: url(./images/big_banner.jpg);
+    }
+
+    .big_banner_solution
+    {
+        background-image: url(./images/big_banner2.jpg);
+    }
 
 .big_banner_container
 {
@@ -767,10 +772,15 @@ article
         height: 548px;
     }
 
-    .big_banner_solution
-    {
-        background-image: url(./images/big_banner2.jpg);
-    }
+        .big_banner_index
+        {
+            background-image: url(./images/big_banner.jpg);
+        }
+
+        .big_banner_solution
+        {
+            background-image: url(./images/big_banner2.jpg);
+        }
 
     .big_banner_container
     {
