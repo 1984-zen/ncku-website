@@ -178,11 +178,15 @@ nav a
 #big_banner
 {   
     height: 480px;
-    background-image: url(./images/big_banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+}
+
+.big_banner_solution
+{
+    background-image: url(./images/big_banner2.jpg);
 }
 
 .big_banner_container
@@ -320,15 +324,29 @@ footer
     background-color: #f2f2f2;
 }
 
+.simulate_image_l_wrap
+{
+    width: 100%;
+    float: none;
+    margin-top: 5%;
+}
+
 .simulate_image_l
 {
     background-image: url(./images/lap_top2.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
-    width: 50%;
-    height: 318px;
-    float: left;
+    background-position: center center;
+    max-width: 80%;
+    margin: 0 auto;
+    height: 0;
+    padding-bottom: 68%;
+}
+
+.flow_image_l_wrap
+{
+    width: 100%;
+    float: none;
     margin-top: 5%;
 }
 
@@ -337,17 +355,19 @@ footer
     background-image: url(./images/flow.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
-    width: 50%;
-    height: 394px;
-    float: left;
-    margin-top: 5%;
+    background-position: center center;
+    max-width: 80%;
+    margin: 0 auto;
+    height: 0;
+    padding-bottom: 63%;
 }
 
 .introduce_r
 {
-    float: left;
-    width: 50%
+    float: none;
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
 }
 
 article
@@ -363,9 +383,17 @@ article
     height: auto;
 }
 
+    .article_container .title
+    {
+        font-size: 26px;
+        color: black;
+        text-align: center;
+        margin-top: 2%;
+    }
+
 .article_container_hidden
 {
-    overflow: hidden;
+    overflow: auto;
 }
 
 .introduce_text_container
@@ -373,25 +401,35 @@ article
     max-width: 80%;
     margin: 0 auto;
 }
+
     .introduce_text_container h1
     {
         color: black;
-        font-size: 70px;
+        font-size: 26px;
+        margin-bottom: 5%;
     }
 
-    .introduce_text_container h3
+    .introduce_text_container p
     {
         color: black;
-        font-size: 40px;
+        font-size: 15px;
+        margin-bottom: 5%;
     }
 
 .introduce_video_container
 {
     max-width: 80%;
     margin: 0 auto;
-    padding-top: 3%;
+    padding-top: 5%;
     border-top: 1px solid rgb(196, 196, 196);
 }
+
+    .introduce_video_container h1
+    {
+        margin-bottom: 5%;
+        font-size: 26px;
+        color: black;
+    }
 
     .introduce_video_container a
     {
@@ -403,7 +441,10 @@ article
 
     .introduce_video_container button
     {
-        margin-right: 2%;
+        margin: 5% 0;
+        display: block;
+        padding: 10px;
+        width: 100%;
     }
 
 .feature_nav
@@ -412,6 +453,8 @@ article
     margin: 0 auto;
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
 }
 
 .feature_item
@@ -421,12 +464,14 @@ article
     text-align: center;
     background-color: white;
     margin-top: 2%;
+    padding: 0 10px;
 }
 
     .feature_item h3
     {
         color: black;
-        font-size: 40px;
+        font-size: 24px;
+        margin: 4% 0;
     }
 
     .feature_item img
@@ -446,7 +491,7 @@ article
 {
     position: fixed;
     width: 60%;
-    height: 44%;
+    height: 15%;
     margin: auto;
     background-color: rgb(0, 0, 0);
     left: 0;
@@ -720,7 +765,11 @@ article
     #big_banner
     {   
         height: 548px;
-        background-image: url(./images/big_banner.jpg);
+    }
+
+    .big_banner_solution
+    {
+        background-image: url(./images/big_banner2.jpg);
     }
 
     .big_banner_container
@@ -793,9 +842,69 @@ article
         font-size: 15px;
     }
 
+    .article_container_hidden
+    {
+        overflow: hidden;
+    }
+
+    .article_container .title
+    {
+        font-size: 32px;
+        text-align: left;
+        margin-left: 2%;
+    }
+
+    .simulate_image_l_wrap
+    {
+        width: 50%;
+        float: left;
+    }
+
+    .introduce_r
+    {
+        float: left;
+        width: 50%;
+    }
+
+    .introduce_video_container h1
+    {
+        font-size: 32px;
+    }
+
+    .introduce_video_container button
+    {
+        display: inline;
+        padding: 5px;
+        width: auto;
+        margin: 0% 2% 2% 0%;
+    }
+
+    .introduce_text_container h1
+    {
+        font-size: 32px;
+    }
+
+    .introduce_text_container p
+    {
+        color: black;
+        font-size: 16px;
+        margin-bottom: 5%;
+    }
+
+    .flow_image_l_wrap
+    {
+        width: 50%;
+        float: left;
+    }
+
+    .feature_item h3
+    {
+        font-size: 30px;
+    }
+
     footer h3
     {
-        font-size: 20px;
+        font-size: 16px;
         line-height: 40px;
     }
 }
