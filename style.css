@@ -226,18 +226,6 @@ nav a
         width: 100%;
         text-align: center;
     }
-    
-    .big_banner_container .button .blue_button
-    {
-        text-decoration: none;
-        background-color: #1637ec;
-        border: none;
-        cursor: pointer;
-        font-size: 16px;
-        padding: 15px 30px;
-        display: inline-block;
-        color: white;
-    }
 
 #small_banner_wrap
 {
@@ -329,6 +317,11 @@ footer
     background-color: #f2f2f2;
 }
 
+.first_article
+{
+    padding-top: 10%;
+}
+
 .simulate_image_l_wrap
 {
     width: 100%;
@@ -379,6 +372,7 @@ article
 {
     background-color: white;
     padding-bottom: 3%;
+    border-bottom: 0.5px solid rgb(196, 196, 196);
 }
 
 .article_container
@@ -525,73 +519,109 @@ article
         padding: 0.4%;
     }
 
+.about_us_blue_line
+{
+    display: none;
+}
+
 .about_us_text_container
 {
     max-width: 816px;
-    margin: auto;
-    overflow: hidden;
-    padding-top: 3%;
+    width: 100%;
+    margin: 0 auto 5%;
+    padding: 3% 3% 0;
 }
+
+    .about_us_text_container h1
+    {
+        font-size: 26px;
+        color: black;
+        display: inline-block;
+        margin: 5% 0;
+    }
+
+    .about_us_text_container > p
+    {
+        color: black;
+        font-size: 15;
+    }
 
     .about_us_text_container img
     {
         vertical-align: text-top;
     }
 
-    .about_us_text_container h1
-    {
-        font-size: 40px;
-        color: black;
-        display: inline-block;
-        padding-left: 2%;
-    }
-
-    .about_us_text_container > p
-    {
-        padding-left: 24%;
-    }
-
-.our_mission
+.member_wrap
 {
-    float: left;
-    width: 50%;
+    max-width: 816px;
+    width: 90%;
+    margin: 0 auto;
 }
 
-    .our_mission h3
-    {
-        font-size: 30px;
-        color: black;
-    }
-
-.our_vision
+.mission_vision_wrap
 {
-    float: left;
-    width: 50%;
+    float: none;
+    width: 100%;
+    margin-bottom: 5%;
 }
 
-    .our_vision h3
+    .mission_vision_wrap .our_mission
     {
-        font-size: 30px;
-        color: black;
+        margin: 0 auto;
+        width: 80%;
     }
 
-.our_research_card .button
+        .our_mission h3
+        {
+            display: inline-block;
+            font-size: 24px;
+            color: black;
+            margin-bottom: 5%;
+        }
+
+        .our_mission p
+        {
+            font-size: 15px;
+            color: black;
+        }
+
+    .mission_vision_wrap .our_vision
     {
-        text-decoration: none;
-        background-color: #1637ec;
-        text-align: center;
-        border: none;
-        cursor: pointer;
-        font-size: 16px;
-        padding: 15px 30px;
-        color: white;
-        display: inline-block;
+        margin: 0 auto;
+        width: 80%;
     }
+
+        .our_vision h3
+        {
+            display: inline-block;
+            font-size: 24px;
+            color: black;
+            margin-bottom: 5%;
+        }
+
+        .our_vision p
+        {
+            font-size: 15px;
+            color: black;
+        }
+
+.blue_button
+{
+    text-decoration: none;
+    background-color: #1637ec;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px 30px;
+    display: inline-block;
+    color: white;
+}
 
 .our_research_card
 {
     width:20%;
-    margin: auto;
+    min-width: 300px;
+    margin: 0 auto 5%;
     box-shadow: 3px 6px 10px 1px #919191;
     padding-bottom: 2%;
 }
@@ -609,10 +639,10 @@ article
 
     .our_research_card p
     {
-        padding: 0 2%;
+        padding: 0 4% 7%;
     }
 
-    .our_research_card .blue_button
+    .our_research_card .button
     {
         text-align: center;
     }
@@ -712,6 +742,11 @@ article
     header
     {
         background-color: transparent;
+    }
+
+    .first_article
+    {
+        padding-top: 0;
     }
 
     header .menu_btn
@@ -910,6 +945,76 @@ article
     .feature_item h3
     {
         font-size: 30px;
+    }
+
+    .about_us_blue_line
+    {
+        display: inline-block;
+    }
+
+    .about_us_text_container h1
+    {
+        font-size: 32px;
+        display: inline-block;
+        padding-left: 2%;
+        margin-bottom: 0;
+    }
+
+    .about_us_text_container > p
+    {
+        padding-left: 24%;
+        font-size: 16;
+    }
+
+    .mission_vision_wrap
+    {
+        float: left;
+        width: 50%;
+        margin-bottom: 0;
+    }
+
+        .mission_vision_wrap .our_mission
+        {
+            padding-left: 10%;
+            padding-right: 20%;
+        }
+
+            .our_mission h3
+            {
+                font-size: 30px;
+                margin-bottom: 0;
+            }
+
+            .our_mission p
+            {
+                font-size: 16px;
+            }
+
+        .mission_vision_wrap .our_vision
+        {
+            padding-left: 20%;
+            padding-right: 10%;
+        }
+
+            .our_vision h3
+            {
+                font-size: 30px;
+                margin-bottom: 0;
+            }
+
+            .our_vision p
+            {
+                font-size: 16px;
+            }
+
+    .our_research_card
+    {
+        margin: 0 auto;
+    }
+
+    .member_wrap
+    {
+        width: 100%;
     }
 
     footer h3
