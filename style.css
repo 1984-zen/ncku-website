@@ -477,17 +477,16 @@ article
 #video_light_box
 {
     position: fixed;
-    width: 60%;
-    height: 15%;
-    margin: auto;
-    background-color: rgb(0, 0, 0);
-    left: 0;
-    right: 1px;
+    width: 100%;
+    background-color: transparent;
     top: 0;
     bottom: 0;
     display: none;
-    box-shadow:3px 6px 10px 1px #919191;
-    padding-top: 1.5%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
 }
 
     #video_light_box video
@@ -495,17 +494,29 @@ article
         width: 100%;
     }
 
-    #video_light_box .video_closebtn
-    {
-        cursor: pointer;
-        font-size: 16px;
-        position: absolute;
-        color: white;
-        top: 0;
-        right: 0;
-        background-color: black;
-        padding: 0.4%;
-    }
+        .video_closebtn
+        {
+            cursor: pointer;
+            font-size: 15px;
+            position: absolute;
+            color: white;
+            top: 37%;
+            right: 0;
+            background-color: black;
+            padding: 0.4%;
+        }
+
+        .video_closebtn_full_screen_area
+        {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            opacity: .5;
+            text-indent: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
 
 .about_us_blue_line
 {
@@ -936,6 +947,18 @@ article
     {
         float: left;
         width: 50%;
+    }
+    
+    #videoclip
+    {
+        max-width: 75%;
+    }
+    
+    .video_closebtn
+    {
+        font-size: 16px;
+        top: 22.5%;
+        right: 12.5%;
     }
 
     .introduce_video_container h1
