@@ -289,6 +289,7 @@ footer
     width: 100%;
     margin: 0 auto;
     background-color: white;
+    padding: 0 5%;
 }
 
     footer h3
@@ -598,7 +599,7 @@ article
     background-color: #1637ec;
     border: none;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 15px;
     padding: 15px 30px;
     display: inline-block;
     color: white;
@@ -667,32 +668,25 @@ article
     max-width: 960px;
     text-align: center;
     margin: 0 auto;
-    padding-top: 1%;
+    height: calc(100vh - 60px);
+    padding-top: 39%;
 }
 
-    .explore_genomics h3
+    .explore_genomics h1
     {
-        font-size: 40px;
-    }
-
-    .explore_genomics .button
-    {
-        text-decoration: none;
-        background-color: #1637ec;
-        text-align: center;
-        border: none;
-        cursor: pointer;
-        font-size: 16px;
-        padding: 6px 20px;
-        color: white;
-        display: inline-block;
+        font-size: 26px;
+        margin: 0 0 7% 0;
     }
 
     .explore_genomics input
     {
-        max-width: 40%;
-        width: 30%;
-        margin-right: 1%;
+        max-width: 95%;
+        width: 100%;
+        margin-bottom: 7%;
+        border-radius: 19px;
+        height: 30px;
+        padding-left: 14px;
+        font-size: 16px;
     }
 
     .explore_genomics form
@@ -1004,6 +998,31 @@ article
         width: 100%;
     }
 
+    .explore_genomics
+    {
+        height: calc(100vh - 80px);
+        padding-top: 8%;
+    }
+
+        .explore_genomics h1
+        {
+            font-size: 32px;
+            margin: 0 0 3% 0;
+        }
+
+        .explore_genomics input
+        {
+            max-width: 60%;
+            width: 100%;
+            margin-bottom: 3%;
+            height: 40px;
+            padding-left: 14px;
+        }
+    
+    .blue_button
+    {
+        font-size: 16px;
+    }
     footer h3
     {
         font-size: 16px;

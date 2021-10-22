@@ -29,7 +29,7 @@ $(window).resize(function() {
 });
 // ===============================偵測螢幕寬度 end
 
-$('button').click(function(){ //只有用HTML的標籤和id能夠分辨出使用者是按了哪個按鈕，為了減少重複一樣的的code，所以決定用button標籤去做，在這個網站，只有播放影片才會使用button標籤
+$('.introduce_video_container>button').click(function(){ //只有用HTML的標籤和id能夠分辨出使用者是按了哪個按鈕，為了減少重複一樣的的code，所以決定用button標籤去做，在這個網站，只有播放影片才會使用button標籤
     var videoName = $(this).attr('data-videoName'); // 抓出摸到這個 button 的 data-videoName 值
     var videoPath = `./videos/${videoName}.mp4`;
     $('source')[0].src = videoPath; // 因為本頁只有一個HTML5的video標籤，裡面只包含1個source標籤，所以$('source')[0]是取第一個 source 標籤
@@ -43,7 +43,19 @@ $('.video_closebtn').click(function(){
     $("#video_light_box").fadeOut(400); // 讓用來播放 video 的父層css改為 display: none
 });
 
-function searchFunction() {
-    let myText = document.getElementById("myText").value;
-    location.assign(`https://www.ncbi.nlm.nih.gov/medgen/?term=${myText}`)
+// =============================== explore_genomics.html頁面蒐集使用者要搜尋 NCBI搜尋引擎 的關鍵字 start
+// 滑鼠點擊送出
+$('#formId>.button>.blue_button').click(function(){
+    let myInputText = $('#myInputText').val();
+    $('#formId').attr('action', `https://www.ncbi.nlm.nih.gov/medgen/?term=${myInputText}`);
+    document.getElementById("formId").submit();
+})
+//鍵盤 Enter 送出
+function EnterKey2Submit(keyCode){
+    if (keyCode == 13) {
+        let myInputText = $('#myInputText').val();
+        $('#formId').attr('action', `https://www.ncbi.nlm.nih.gov/medgen/?term=${myInputText}`);
+        document.getElementById("formId").submit();
+    }
 }
+// =============================== end
