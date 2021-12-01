@@ -1,134 +1,132 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title></title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
-    <link rel="stylesheet" href="./style.css" />
-</head>
-
-<body>
-    <input type="checkbox" id="menu_control">
-    <div class="wrap">
-        <header>
-            <h1 class="logo"><a href="./index.html"><img src="./images/logo.jpg" /></a></h1>
-            <label for="menu_control" class="menu_btn"><span>選單</span></label>
-            <div class="login"><a href="#">Log in</a></div>
-            <nav class="desktop_menu">
-                <a href="./solutions.html">Solutions</a>
-                <a href="./about_us.html">About Us</a>
-                <a href="#">Achievement & Award</a>
-                <a href="./explore_genomics.html">Explore Genomics</a>
-                <a href="./links.html">recommanded Links for AI</a>
-            </nav>
-            <nav class="mobile_menu">
-                <a href="./index.html">Home</a>
-                <a href="./solutions.html">Solutions</a>
-                <a href="./about_us.html">About Us</a>
-                <a href="#">Achievement & Award</a>
-                <a href="./explore_genomics.html">Explore Genomics</a>
-                <a href="./links.html">recommanded Links for AI</a>
-                <a href="#">Log in</a>
-            </nav>
-        </header>
-        <main>
-            <article class="background_cool_gray first_article">
-                <div class="article_container article_container_hidden">
-                    <div class="about_us_text_container">
-                        <img class="about_us_blue_line" src="./images/blue_line.jpg" />
-                        <h1>我們是誰</h1>
-                        <p>An "About Us" Page is where you reveal your brand story, business values, mission, and experiences. Now the question is: why would you want to share all this ...</p>
-                    </div>
-                    <div class="mission_vision_wrap">
-                        <div class="our_mission">
-                            <img src="./images/circle.jpg" />
-                            <h3>我們的任務</h3>
-                            <p>提升醫療準確度及效率以達到精準醫療</p>
+    <body>
+        <input type="checkbox" id="menu_control">
+        <div id="app">
+            <header class="header_container">
+                <h1 class="logo"><a href="./index.html"><img src="./images/logo.jpg" /></a></h1>
+                <label for="menu_control" class="menu_btn"><span>選單</span></label>
+                <div class="login"><a href="#">Log in</a></div>
+                <nav class="desktop_menu">
+                    <a href="./solutions.html">Solutions</a>
+                    <a href="./about_us.html">About Us</a>
+                    <a href="./achivement.html">Achievement & Award</a>
+                    <a href="./explore_genomics.html">Explore Genomics</a>
+                    <a href="./links.html">recommanded Links for AI</a>
+                </nav>
+                <nav class="mobile_menu">
+                    <a href="./index.html">Home</a>
+                    <a href="./solutions.html">Solutions</a>
+                    <a href="./about_us.html">About Us</a>
+                    <a href="./achivement.html">Achievement & Award</a>
+                    <a href="./explore_genomics.html">Explore Genomics</a>
+                    <a href="./links.html">recommanded Links for AI</a>
+                    <a href="#">Log in</a>
+                </nav>
+            </header>
+            <main>
+                <article class="background_cool_gray gap">
+                    <div class="article_container article_container_hidden">
+                        <div class="about_us_text_container">
+                            <img class="about_us_blue_line" src="./images/blue_line.jpg" />
+                            <h1>我們是誰</h1>
+                            <p>An "About Us" Page is where you reveal your brand story, business values, mission, and experiences. Now the question is: why would you want to share all this ...</p>
+                        </div>
+                        <div class="mission_vision_wrap">
+                            <div class="our_mission">
+                                <img src="./images/circle.jpg" />
+                                <h3>我們的任務</h3>
+                                <p>提升醫療準確度及效率以達到精準醫療</p>
+                            </div>
+                        </div>
+                        <div class="mission_vision_wrap">
+                            <div class="our_vision">
+                                <img src="./images/circle.jpg" />
+                                <h3>我們的願景</h3>
+                                <p>調整數據技術以簡化和增加每個人獲得醫療保險的機會</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="mission_vision_wrap">
-                        <div class="our_vision">
-                            <img src="./images/circle.jpg" />
-                            <h3>我們的願景</h3>
-                            <p>調整數據技術以簡化和增加每個人獲得醫療保險的機會</p>
+                </article>
+                <article class="gap">
+                    <div class="article_container">
+                        <div class="about_us_text_container">
+                            <img class="about_us_blue_line" src="./images/blue_line.jpg" />
+                            <h1>我們的 AI 領域研究</h1>
+                        </div>
+                        <div class="our_research_card">
+                            <div class="small_banner_thumbnaill">
+                                <img src="./images/about_us_our_research_thumbnail.png" />
+                            </div>
+                            <p>我們使用 AI 神經網路達到偵測並定位心臟異常</p>
+                            <div class="button">
+                                <a href="./solutions.html" class="blue_button">See the Solution</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </article>
-            <article>
-                <div class="article_container">
-                    <div class="about_us_text_container">
-                        <img class="about_us_blue_line" src="./images/blue_line.jpg" />
-                        <h1>我們的 AI 領域研究</h1>
-                    </div>
-                    <div class="our_research_card">
-                        <div class="small_banner_thumbnaill">
-                            <img src="./images/small_banner_thumbnaill.jpg" />
+                </article>
+                <article class="gap">
+                    <div class="article_container">
+                        <div class="about_us_text_container">
+                            <img class="about_us_blue_line" src="./images/blue_line.jpg" />
+                            <h1>團隊</h1>
                         </div>
-                        <p>我們使用 AI 神經網路達到偵測並定位心臟異常</p>
-                        <div class="button">
-                            <a href="./solutions.html" class="blue_button">See the Solution</a>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <article>
-                <div class="article_container">
-                    <div class="about_us_text_container">
-                        <img class="about_us_blue_line" src="./images/blue_line.jpg" />
-                        <h1>團隊</h1>
-                    </div>
-                    <div class="member_wrap">
-                        <div class="member">
-                            <h4><a href="http://dr.hosp.ncku.edu.tw/team/page/%E5%BF%83%E8%87%9F%E8%A1%80%E7%AE%A1%E7%A7%91/%E9%86%AB%E5%B8%AB%E4%BB%8B%E7%B4%B9/%E5%8A%89%E7%A7%89%E5%BD%A5" target="_blank">劉秉彥</a></h4>
-                            <div class="member_title">教授兼臨床醫學研究中心主任兼臨床醫學研究所所長兼主治醫師</div>
-                            <p>Ping-Yen, Liu</p>
-                        </div>
-                        <div class="member">
-                            <h4><a href="http://dr.hosp.ncku.edu.tw/team/page/%E5%BF%83%E8%87%9F%E8%A1%80%E7%AE%A1%E7%A7%91/%E9%86%AB%E5%B8%AB%E4%BB%8B%E7%B4%B9/%E5%8A%89%E5%9A%B4%E6%96%87" target="_blank">劉嚴文</a></h4>
-                            <div class="member_title">副教授兼主治醫師</div>
-                            <p>Yen-Wen, Liu</p>
-                        </div>
-                        <div class="member">
-                            <h4><a href="http://dr.hosp.ncku.edu.tw/team/page/%E5%BF%83%E8%87%9F%E8%A1%80%E7%AE%A1%E7%A7%91/%E9%86%AB%E5%B8%AB%E4%BB%8B%E7%B4%B9/%E6%9D%8E%E6%96%87%E7%85%8C" target="_blank">李文煌</a></h4>
-                            <div class="member_title">臨床助理教授兼主治醫師</div>
-                            <p>Wen-Huang, Li</p>
-                        </div>
-                        <div class="member">
-                            <h4><a href="http://dr.hosp.ncku.edu.tw/team/page/%E5%BF%83%E8%87%9F%E8%A1%80%E7%AE%A1%E7%A7%91/%E9%86%AB%E5%B8%AB%E4%BB%8B%E7%B4%B9/%E6%9D%8E%E6%9F%8F%E5%A2%9E" target="_blank">李柏增</a></h4>
-                            <div class="member_title">臨床講師兼主治醫師</div>
-                            <p>Po-Tseng, Lee</p>
-                        </div>
-                        <div class="member">
-                            <h4><a href="http://dr.hosp.ncku.edu.tw/team/page/%E5%BF%83%E8%87%9F%E8%A1%80%E7%AE%A1%E7%A7%91/%E9%86%AB%E5%B8%AB%E4%BB%8B%E7%B4%B9/%E9%99%B3%E6%9F%8F%E5%81%89" target="_blank">陳柏偉</a></h4>
-                            <div class="member_title">主治醫師</div>
-                            <p>Po-Wei, Chen</p>
-                        </div>
-                        <div class="member">
-                            <h4><a href="http://dr.hosp.ncku.edu.tw/team/page/%E5%BF%83%E8%87%9F%E8%A1%80%E7%AE%A1%E7%A7%91/%E9%86%AB%E5%B8%AB%E4%BB%8B%E7%B4%B9/%E9%BB%83%E9%BC%8E%E9%88%9E" target="_blank">黃鼎鈞</a></h4>
-                            <div class="member_title">主治醫師</div>
-                            <p>Ting-Chun, Huang</p>
-                        </div>
-                        <div class="member">
-                            <h4><a href="http://dr.hosp.ncku.edu.tw/team/page/%E5%BF%83%E8%87%9F%E8%A1%80%E7%AE%A1%E7%A7%91/%E9%86%AB%E5%B8%AB%E4%BB%8B%E7%B4%B9/%E9%BB%83%E7%9D%A6%E7%BF%94" target="_blank">黃睦翔</a></h4>
-                            <div class="member_title">主治醫師</div>
-                            <p>Mu-Shiang, Huang</p>
-                        </div>
-                        <div class="member">
-                            <h4><a href="http://dr.hosp.ncku.edu.tw/team/page/%E5%BF%83%E8%87%9F%E8%A1%80%E7%AE%A1%E7%A7%91/%E9%86%AB%E5%B8%AB%E4%BB%8B%E7%B4%B9/%E5%BC%B5%E7%8D%BB%E5%85%83" target="_blank">張獻元</a></h4>
-                            <div class="member_title">臨床助理教授兼主治醫師</div>
-                            <p>Hsien-Yuan, Chang</p>
+                        <div class="member_wrap">
+                            <div class="member">
+                                <h4><a href="http://dr.hosp.ncku.edu.tw/team/page/%E5%BF%83%E8%87%9F%E8%A1%80%E7%AE%A1%E7%A7%91/%E9%86%AB%E5%B8%AB%E4%BB%8B%E7%B4%B9/%E5%8A%89%E7%A7%89%E5%BD%A5" target="_blank">劉秉彥</a></h4>
+                                <div class="member_title">教授兼臨床醫學研究中心主任兼臨床醫學研究所所長兼主治醫師</div>
+                                <p>Ping-Yen, Liu</p>
+                            </div>
+                            <div class="member">
+                                <h4><a href="http://dr.hosp.ncku.edu.tw/team/page/%E5%BF%83%E8%87%9F%E8%A1%80%E7%AE%A1%E7%A7%91/%E9%86%AB%E5%B8%AB%E4%BB%8B%E7%B4%B9/%E5%8A%89%E5%9A%B4%E6%96%87" target="_blank">劉嚴文</a></h4>
+                                <div class="member_title">副教授兼主治醫師</div>
+                                <p>Yen-Wen, Liu</p>
+                            </div>
+                            <div class="member">
+                                <h4><a href="http://dr.hosp.ncku.edu.tw/team/page/%E5%BF%83%E8%87%9F%E8%A1%80%E7%AE%A1%E7%A7%91/%E9%86%AB%E5%B8%AB%E4%BB%8B%E7%B4%B9/%E6%9D%8E%E6%96%87%E7%85%8C" target="_blank">李文煌</a></h4>
+                                <div class="member_title">臨床助理教授兼主治醫師</div>
+                                <p>Wen-Huang, Li</p>
+                            </div>
+                            <div class="member">
+                                <h4><a href="http://dr.hosp.ncku.edu.tw/team/page/%E5%BF%83%E8%87%9F%E8%A1%80%E7%AE%A1%E7%A7%91/%E9%86%AB%E5%B8%AB%E4%BB%8B%E7%B4%B9/%E6%9D%8E%E6%9F%8F%E5%A2%9E" target="_blank">李柏增</a></h4>
+                                <div class="member_title">臨床講師兼主治醫師</div>
+                                <p>Po-Tseng, Lee</p>
+                            </div>
+                            <div class="member">
+                                <h4><a href="http://dr.hosp.ncku.edu.tw/team/page/%E5%BF%83%E8%87%9F%E8%A1%80%E7%AE%A1%E7%A7%91/%E9%86%AB%E5%B8%AB%E4%BB%8B%E7%B4%B9/%E9%99%B3%E6%9F%8F%E5%81%89" target="_blank">陳柏偉</a></h4>
+                                <div class="member_title">主治醫師</div>
+                                <p>Po-Wei, Chen</p>
+                            </div>
+                            <div class="member">
+                                <h4><a href="http://dr.hosp.ncku.edu.tw/team/page/%E5%BF%83%E8%87%9F%E8%A1%80%E7%AE%A1%E7%A7%91/%E9%86%AB%E5%B8%AB%E4%BB%8B%E7%B4%B9/%E9%BB%83%E9%BC%8E%E9%88%9E" target="_blank">黃鼎鈞</a></h4>
+                                <div class="member_title">主治醫師</div>
+                                <p>Ting-Chun, Huang</p>
+                            </div>
+                            <div class="member">
+                                <h4><a href="http://dr.hosp.ncku.edu.tw/team/page/%E5%BF%83%E8%87%9F%E8%A1%80%E7%AE%A1%E7%A7%91/%E9%86%AB%E5%B8%AB%E4%BB%8B%E7%B4%B9/%E9%BB%83%E7%9D%A6%E7%BF%94" target="_blank">黃睦翔</a></h4>
+                                <div class="member_title">主治醫師</div>
+                                <p>Mu-Shiang, Huang</p>
+                            </div>
+                            <div class="member">
+                                <h4><a href="http://dr.hosp.ncku.edu.tw/team/page/%E5%BF%83%E8%87%9F%E8%A1%80%E7%AE%A1%E7%A7%91/%E9%86%AB%E5%B8%AB%E4%BB%8B%E7%B4%B9/%E5%BC%B5%E7%8D%BB%E5%85%83" target="_blank">張獻元</a></h4>
+                                <div class="member_title">臨床助理教授兼主治醫師</div>
+                                <p>Hsien-Yuan, Chang</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </article>
+                </article>
             </main>
             <footer><h3>Copyright &copy; 2021 國立成功大學醫學院附設醫院內科部 All Right Reserved</h3></footer>
         </div>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-        <script src="common.js" charset="UTF-8" type="text/javascript"></script>
+        <script src="js/common.js" charset="UTF-8" type="text/javascript"></script>
     </body>
-    
-    </html>
+</html>

@@ -1,8 +1,8 @@
 $(window).scroll(function() {
     if ($(this).scrollTop() > 60)  {         /* 要滑動到選單的距離 */
-        $('header').addClass('navFixed');    /* 幫選單加上固定效果 */
+        $('.header_container').addClass('navFixed');    /* 幫選單加上固定效果 */
     } else {
-        $('header').removeClass('navFixed'); /* 移除選單固定效果 */
+        $('.header_container').removeClass('navFixed'); /* 移除選單固定效果 */
     }
 });
 
