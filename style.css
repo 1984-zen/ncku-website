@@ -766,6 +766,120 @@ footer
         width: 12%;
     }
 
+.board .article_container_hidden
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.board_icon
+{
+    max-width: 195px;
+    /* max-width: 289px; */
+    width: 100%;
+    display: block;
+    margin: 0 auto 5%;
+}
+
+.board_introduce_l
+{
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+
+    .board_introduce_l h1
+    {
+        display: inline-block;
+        font-size: 26px;
+    }
+
+    .board_introduce_l p
+    {
+        font-size: 15px;
+        padding: 4%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .board_image_wrap
+    {
+        width: 100%;
+        float: none;
+    }
+
+.board_introduce_r
+{
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+    
+    .board_introduce_r h1
+    {
+        display: inline-block;
+        font-size: 26px;
+    }
+
+    .board_introduce_r p
+    {
+        font-size: 15px;
+        padding: 4% 0;
+        width: 100%;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+.board_pain_solution_image
+{
+    background-image: url(./images/board_pain_solution_image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 80%;
+    margin: 0 auto;
+    height: 0;
+    padding-bottom: 63%;
+}
+
+.board_chart_image
+{
+    background-image: url(./images/board_chart_image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 80%;
+    margin: 0 auto;
+    height: 0;
+    padding-bottom: 63%;
+}
+
+.board_schedle_image
+{
+    background-image: url(./images/board_schedule_image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 80%;
+    margin: 0 auto;
+    height: 0;
+    padding-bottom: 63%;
+}
+
+.board_escape_image
+{
+    background-image: url(./images/board_escape_image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 80%;
+    margin: 0 auto;
+    height: 0;
+    padding-bottom: 63%;
+}
+
 /* 以下是桌機板 */
 @media screen and (min-width:768px)
 {
@@ -1098,6 +1212,81 @@ footer
     {
         font-size: 32px;
     }
+
+.board .article_container_hidden
+{
+    flex-direction: row;
+}
+
+.board_introduce_l
+{
+    width: 50%;
+    float: left;
+    padding-left: 4%;
+    text-align: left;
+    display: block;
+}
+
+    .board_introduce_l h1
+    {
+        font-size: 32px;
+        vertical-align: middle;
+        padding-left: 4%;
+        max-width: 70%;
+        text-align: left;
+    }
+
+    .board_introduce_l p
+    {
+        font-size: 16px;
+        text-align: left;
+        margin: 0;
+        padding: 4% 0;
+    }
+
+.board_image_wrap
+{
+    width: 50%;
+    float: left;
+    display: block;
+}
+
+.board_introduce_r
+{
+    width: 50%;
+    float: right;
+    padding-right: 4%;
+    text-align: left;
+    display: block;
+    order: 1;
+}
+
+    .board_introduce_r h1
+    {
+        font-size: 32px;
+        vertical-align: middle;
+        padding-left: 4%;
+        max-width: 70%;
+        text-align: left;
+    }
+
+    .board_introduce_r p
+    {
+        font-size: 16px;
+        text-align: left;
+        max-width: 100%;
+        margin: 0;
+        padding: 4% 0;
+    }
+
+.board_icon
+{
+    vertical-align: middle;
+    max-width: 23%;
+    width: 125px;
+    display: inline-block;
+    margin: 0;
+}
 
     .blue_button
     {
