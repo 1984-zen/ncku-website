@@ -354,7 +354,7 @@ footer
 
 .gap
 {   
-    padding-top: 60px;
+    padding-top: 100px;
     padding-bottom: 5%;
     border-bottom: 0.5px solid rgb(196, 196, 196);
 }
@@ -524,7 +524,7 @@ footer
     max-width: 816px;
     width: 100%;
     margin: 0 auto 5%;
-    padding: 3% 3% 0;
+    padding: 0 44px;
 }
 
     .about_us_text_container h1
@@ -532,7 +532,7 @@ footer
         font-size: 26px;
         color: black;
         display: inline-block;
-        margin: 5% 0;
+        margin: 0;
     }
 
     .about_us_text_container > p
@@ -644,7 +644,7 @@ footer
 
 .member
 {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .member h4
@@ -676,7 +676,7 @@ footer
     text-align: center;
     margin: 0 auto;
     height: calc(100vh - 60px);
-    padding-top: 39%;
+    padding-top: 25%;
 }
 
     .explore_genomics h1
@@ -707,13 +707,13 @@ footer
     text-align: center;
     margin: 0 auto;
     height: calc(100vh - 60px);
-    padding: 3% 3% 0;
+    padding: 0 3%;
 }
 
     .recommanded_links h1
     {
         font-size: 26px;
-        margin: 5% 0;
+        margin-bottom: 5%;
     }
 
     .recommanded_links table
@@ -880,9 +880,479 @@ footer
     padding-bottom: 63%;
 }
 
+.about_member
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 1%;
+    margin-bottom: 10px;
+}
+
+    .about_member .member_name
+    {
+        display: block;
+        float: left;
+    }
+    
+    .member_name li
+    {
+        display: inline-block;
+        max-width: 500px;
+        text-align: left;
+    }
+
+    .member_name > li h3
+    {
+        display: inline-block;
+        font-size: 24px;
+        padding: 0 10px 0 0;
+    }
+
+    .member_name > li span
+    {
+        font-size: 20px;
+        padding: 0 0 0 0;
+        color: rgb(46, 46, 46);
+        font-weight: 100;
+    }
+
+    .member_name > li p
+    {
+        color: rgb(146, 146, 146);
+        font-size: 16px;
+        padding: 0 38px 0 0;
+    }
+
+    .paper_status
+    {
+        float: right;
+        display: block;
+        color: #8c6e4a;
+    }
+
+    .paper_status li
+    {
+        display: inline-block;
+        max-width: 210px;
+        text-align: center;
+    }
+
+    .paper_status li .count
+    {
+        display: block;
+        font-size: 24px;
+    }
+
+.paper_list_results
+{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.paper_list_results a
+{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    text-indent: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.paper_list h3
+{
+    font-size: 24px;
+    font-weight: 400;
+    color: #8c6e4a;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.paper_list h3:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.paper_list_results
+{
+    margin-bottom: 40px;
+}
+
+.paper_list_results p
+{
+    color: #343434;
+    font-size: 18px;
+}
+
+.paper_list_results p:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.awardTitle
+{
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 22px;
+    font-weight: 700;
+    letter-spacing: .1px;
+    color: rgb(46, 46, 46)
+}
+
+.award_news
+{
+    display: none;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+#news
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 58px 30px 84px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#news_content
+{
+    width: 100%;
+    flex-basis: 0;
+    flex-grow: 1;
+    order: 1;
+}
+
+.awardTitle
+{
+    display: none;
+}
+
+#news_content .articleTitle
+{
+    font-size: 24px;
+}
+
+#news_list header h3
+{
+    font-size: 30px;
+    line-height: 44px;
+    margin-bottom: 20px;
+    color: #8c6e4a
+}
+
+#news_list p
+{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: .2px;
+}
+
+#news_list a
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    display: block;
+    text-indent: 100%;
+    overflow: hidden;
+}
+
+.award_submenu_container
+{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    z-index: 4;
+}
+
+.desktop_award_submenu
+{
+    display: none;
+}
+
+.mobile_award_submenu
+{
+    border: 1px solid #8c6e4a;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+}
+
+.mobile_award_submenu a
+{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 4px 16px;
+}
+
+.research
+{
+    display: flex;;
+}
+
+.research .research_container
+{
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 0 30px;
+}
+
+.paginator_first_page:before
+{
+    padding: 5px 10px;
+    display: inline-block;
+    content: "«";
+}
+
+.paginator_previous_page:before
+{
+    padding: 5px 10px;
+    display: inline-block;
+    content: "‹";
+}
+
+.paginator_next_page:before
+{
+    padding: 5px 10px;
+    display: inline-block;
+    content: "›";
+}
+
+.paginator_last_page:before
+{
+    padding: 5px 10px;
+    display: inline-block;
+    content: "»";
+}
+
+.paper_link_outside_button
+{
+    display: block;
+    border: 1.5px solid #a31f34;
+    padding: 5px 12px;
+    max-width: 200px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.paper_link_outside_button h3
+{
+    font-size: 18px;
+    color: #a31f34;
+}
+.research_anchor
+{
+    transition: all .3s 0s ease;
+}
+
+.research_anchor.active
+{
+    background-color: #8c6e4a;
+    color: white;
+}
+
+.award_anchor
+{
+    transition: all .3s 0s ease;
+}
+
+.award_anchor.active
+{
+    background-color: #8c6e4a;
+    color: white;
+}
+
+#year button
+{
+    background-color: #707b91;
+    padding: 4px 85px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.show 
+{
+    display: block;
+}
+
+#year
+{
+    order: 0;
+    margin-bottom: 30px;
+}
+
+#news_year
+{
+    max-height: 800px;
+    overflow: scroll;
+    list-style: none;
+    width: 262px;
+    margin: 0 auto;
+}
+
+#news_year .newsYearStatus
+{
+    background: #e5e5e5;
+}
+
+#news_year li
+{
+    padding: 15px 0;
+    border-bottom: 1px dashed #707b91;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#news_year .allYears.active
+{
+    background-color: #e5e5e5;
+}
+
+.change_page.active
+{
+    background-color: #d4d7de;
+    border-radius: 50rem;
+    line-height: 1;
+    margin-left: 0.25rem;
+}
+
+.change_page
+{
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+#pagenator
+{
+    width: 100%;
+    display: block;
+    order: 3;
+}
+
+#pagenator ul
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+
+#pagenator ul li
+{
+    align-content: center;
+}
+
+#paginatorNumbers
+{
+    vertical-align: baseline;
+}
+
+#news_detail
+{
+    display: flex;
+    max-width: 440px;
+    margin: 0 auto;
+}
+#news_detail .news_detail_container
+{
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgb(218, 42, 11);
+}
+#news_detail .news_detail_container h1
+{
+    font-size: 80px;
+    font-family: "DFKai-sb";
+    letter-spacing: 2px;
+}
+#news_detail .news_detail_container h2
+{
+    font-size: 44px;
+    font-family: 'Noto Serif TC', serif;
+    letter-spacing: 1px;
+}
+#news_detail .news_detail_container h3
+{
+    font-size: 35px;
+    font-family: 'Noto Serif TC', serif;
+    letter-spacing: 1px;
+}
+#news_detail .news_detail_container h4
+{
+    font-size: 30px;
+    font-family: 'Noto Serif TC', serif;
+    letter-spacing: 1px;
+}
+.news_detail_decoration
+{
+    padding: 12px 0;
+    border-bottom: 1px dashed
+}
+#news_detail footer
+{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 0;
+    background-color: transparent;
+}
+#news_detail footer .nowrap
+{
+    display: inline-block;
+    width: auto;
+}
+#news_detail footer .nowrap span
+{
+    font-family: "DFKai-sb";
+    font-size: 20px;
+}
+#news_detail footer .wrap
+{
+    display: inline-block;
+    width: auto;
+    height: 50px;
+    vertical-align: middle;
+}
+#news_detail footer .wrap span
+{
+    display: block;
+    font-family: "DFKai-sb";
+    font-size: 20px;
+}
+#news_detail .news_detail_container .news_detail_decoration header
+{
+    padding: 15px;
+}
+
 /* 以下是桌機板 */
 @media screen and (min-width:768px)
-{
+{   
     #app
     {
         padding-top: 96px;
@@ -895,7 +1365,7 @@ footer
 
     .gap
     {   
-        padding-top: 0;
+        padding-top: 130px;
     }
 
     header .menu_btn
@@ -1123,7 +1593,7 @@ footer
         font-size: 32px;
         display: inline-block;
         padding-left: 2%;
-        margin-bottom: 0;
+        margin: 0;
     }
 
     .about_us_text_container > p
@@ -1186,7 +1656,7 @@ footer
     .explore_genomics
     {
         height: calc(100vh - 80px);
-        padding-top: 8%;
+        padding-top: 0;
     }
 
         .explore_genomics h1
@@ -1208,24 +1678,25 @@ footer
     {
         height: calc(100vh - 80px);
     }
+
     .recommanded_links h1
     {
         font-size: 32px;
     }
 
-.board .article_container_hidden
-{
-    flex-direction: row;
-}
+    .board .article_container_hidden
+    {
+        flex-direction: row;
+    }
 
-.board_introduce_l
-{
-    width: 50%;
-    float: left;
-    padding-left: 4%;
-    text-align: left;
-    display: block;
-}
+    .board_introduce_l
+    {
+        width: 50%;
+        float: left;
+        padding-left: 4%;
+        text-align: left;
+        display: block;
+    }
 
     .board_introduce_l h1
     {
@@ -1244,22 +1715,22 @@ footer
         padding: 4% 0;
     }
 
-.board_image_wrap
-{
-    width: 50%;
-    float: left;
-    display: block;
-}
+    .board_image_wrap
+    {
+        width: 50%;
+        float: left;
+        display: block;
+    }
 
-.board_introduce_r
-{
-    width: 50%;
-    float: right;
-    padding-right: 4%;
-    text-align: left;
-    display: block;
-    order: 1;
-}
+    .board_introduce_r
+    {
+        width: 50%;
+        float: right;
+        padding-right: 4%;
+        text-align: left;
+        display: block;
+        order: 1;
+    }
 
     .board_introduce_r h1
     {
@@ -1279,14 +1750,107 @@ footer
         padding: 4% 0;
     }
 
-.board_icon
-{
-    vertical-align: middle;
-    max-width: 23%;
-    width: 125px;
-    display: inline-block;
-    margin: 0;
-}
+    .board_icon
+    {
+        vertical-align: middle;
+        max-width: 23%;
+        width: 125px;
+        display: inline-block;
+        margin: 0;
+    }
+
+    .award_submenu_container
+    {
+        width: 122px;
+        left: 18px;
+        top: 96px;
+    }
+
+    .mobile_award_submenu
+    {
+        display: none;
+    }
+
+    .desktop_award_submenu
+    {
+        border: 1px solid #8c6e4a;
+        padding: 8px 7px;
+        width: 100%;
+        display: block;
+        cursor: pointer;
+    }
+
+    .desktop_award_submenu:hover
+    {
+        border: 1px solid #f0c48e;
+        transition: all .1s 0s ease;
+    }
+
+    .desktop_award_submenu a
+    {
+        font-size: 18px;
+        font-weight: 700;
+        padding: 4px 16px;
+        display: block;
+    }
+
+    .research .research_container
+    {
+        padding: 0 160px;
+    }
+
+    .paper_link_outside_button
+    {
+        margin: 0;
+    }
+
+    #news
+    {
+        flex-direction: row;
+        padding: 58px 150px 84px;
+    }
+
+    #news_content
+    {
+        order: 0;
+    }
+
+    #pagenator
+    {
+        order: 0;
+    }
+
+    #year
+    {
+        margin-bottom: 0;
+    }
+
+    #news_detail
+    {
+        display: block;
+        max-width: 550px;
+    }
+
+    #news_detail .news_detail_container
+    {
+        margin: auto;
+        height: auto;
+    }
+
+    #news_detail .news_detail_container h3
+    {
+        font-size: 40px;
+    }
+
+    #news_detail footer .wrap span
+    {
+        font-size: 25px;
+    }
+
+    #news_detail footer .nowrap span
+    {
+        font-size: 25px;
+    }
 
     .blue_button
     {

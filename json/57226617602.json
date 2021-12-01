@@ -1,0 +1,231 @@
+{
+    "search-results": {
+        "opensearch:totalResults": "3",
+        "opensearch:startIndex": "0",
+        "opensearch:itemsPerPage": "3",
+        "opensearch:Query": {
+            "@role": "request",
+            "@searchTerms": "AU-ID(57226617602)",
+            "@startPage": "0"
+        },
+        "link": [
+            {
+                "@_fa": "true",
+                "@ref": "self",
+                "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=150&query=AU-ID%2857226617602%29&sort=+coverDate,%20+prism:aggregationType",
+                "@type": "application/json"
+            },
+            {
+                "@_fa": "true",
+                "@ref": "first",
+                "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=150&query=AU-ID%2857226617602%29&sort=+coverDate,%20+prism:aggregationType",
+                "@type": "application/json"
+            }
+        ],
+        "entry": [
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85119273120"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85119273120?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85119273120&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85119273120&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "full-text",
+                        "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S1877065721000038"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85119273120",
+                "dc:identifier": "SCOPUS_ID:85119273120",
+                "eid": "2-s2.0-85119273120",
+                "dc:title": "Real-time exercise reduces impaired cardiac function in breast cancer patients undergoing chemotherapy: A randomized controlled trial",
+                "dc:creator": "Chung W.P.",
+                "prism:publicationName": "Annals of Physical and Rehabilitation Medicine",
+                "prism:issn": "18770657",
+                "prism:eIssn": "18770665",
+                "prism:volume": "65",
+                "prism:issueIdentifier": "2",
+                "prism:pageRange": null,
+                "prism:coverDate": "2022-03-01",
+                "prism:coverDisplayDate": "March 2022",
+                "prism:doi": "10.1016/j.rehab.2021.101485",
+                "pii": "S1877065721000038",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University Hospital",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "33453417",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "article-number": "101485",
+                "source-id": "16500154708",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85108303237"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85108303237?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85108303237&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85108303237&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85108303237",
+                "dc:identifier": "SCOPUS_ID:85108303237",
+                "eid": "2-s2.0-85108303237",
+                "dc:title": "Off-label reduced-dose apixaban does not reduce hemorrhagic risk in Taiwanese patients with nonvalvular atrial fibrillation: A retrospective, observational study",
+                "dc:creator": "Chen I.C.",
+                "prism:publicationName": "Medicine",
+                "prism:eIssn": "15365964",
+                "prism:volume": "100",
+                "prism:issueIdentifier": "23",
+                "prism:pageRange": "e26272",
+                "prism:coverDate": "2021-06-11",
+                "prism:coverDisplayDate": "11 June 2021",
+                "prism:doi": "10.1097/MD.0000000000026272",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "Chia Nan University of Pharmacy and Science",
+                        "affiliation-city": "Nan",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "Tainan Municipal Hospital",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "China"
+                    }
+                ],
+                "pubmed-id": "34115024",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "18387",
+                "openaccess": "1",
+                "openaccessFlag": true,
+                "freetoread": {
+                    "value": [
+                        {
+                            "$": "all"
+                        },
+                        {
+                            "$": "publisherfullgold"
+                        },
+                        {
+                            "$": "repository"
+                        },
+                        {
+                            "$": "repositoryvor"
+                        }
+                    ]
+                },
+                "freetoreadLabel": {
+                    "value": [
+                        {
+                            "$": "All Open Access"
+                        },
+                        {
+                            "$": "Gold"
+                        },
+                        {
+                            "$": "Green"
+                        }
+                    ]
+                }
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85118314886"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85118314886?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85118314886&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85118314886&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85118314886",
+                "dc:identifier": "SCOPUS_ID:85118314886",
+                "eid": "2-s2.0-85118314886",
+                "dc:title": "Association between cognitive function and self-reported antihypertensive medication adherence among middle-aged and older hypertensive women",
+                "dc:creator": "Chou C.C.",
+                "prism:publicationName": "Journal of Clinical Nursing",
+                "prism:issn": "09621067",
+                "prism:eIssn": "13652702",
+                "prism:pageRange": null,
+                "prism:coverDate": "2021-01-01",
+                "prism:coverDisplayDate": "2021",
+                "prism:doi": "10.1111/jocn.16106",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Yang Ming Chiao Tung University",
+                        "affiliation-city": "Hsinchu",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "28191",
+                "openaccess": "0",
+                "openaccessFlag": false
+            }
+        ]
+    }
+}

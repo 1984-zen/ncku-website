@@ -1,0 +1,169 @@
+{
+    "search-results": {
+        "opensearch:totalResults": "2",
+        "opensearch:startIndex": "0",
+        "opensearch:itemsPerPage": "2",
+        "opensearch:Query": {
+            "@role": "request",
+            "@searchTerms": "AU-ID(57226619252)",
+            "@startPage": "0"
+        },
+        "link": [
+            {
+                "@_fa": "true",
+                "@ref": "self",
+                "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=150&query=AU-ID%2857226619252%29&sort=+coverDate,%20+prism:aggregationType",
+                "@type": "application/json"
+            },
+            {
+                "@_fa": "true",
+                "@ref": "first",
+                "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=150&query=AU-ID%2857226619252%29&sort=+coverDate,%20+prism:aggregationType",
+                "@type": "application/json"
+            }
+        ],
+        "entry": [
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85108303237"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85108303237?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85108303237&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85108303237&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85108303237",
+                "dc:identifier": "SCOPUS_ID:85108303237",
+                "eid": "2-s2.0-85108303237",
+                "dc:title": "Off-label reduced-dose apixaban does not reduce hemorrhagic risk in Taiwanese patients with nonvalvular atrial fibrillation: A retrospective, observational study",
+                "dc:creator": "Chen I.C.",
+                "prism:publicationName": "Medicine",
+                "prism:eIssn": "15365964",
+                "prism:volume": "100",
+                "prism:issueIdentifier": "23",
+                "prism:pageRange": "e26272",
+                "prism:coverDate": "2021-06-11",
+                "prism:coverDisplayDate": "11 June 2021",
+                "prism:doi": "10.1097/MD.0000000000026272",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "Chia Nan University of Pharmacy and Science",
+                        "affiliation-city": "Nan",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "Tainan Municipal Hospital",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "China"
+                    }
+                ],
+                "pubmed-id": "34115024",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "18387",
+                "openaccess": "1",
+                "openaccessFlag": true,
+                "freetoread": {
+                    "value": [
+                        {
+                            "$": "all"
+                        },
+                        {
+                            "$": "publisherfullgold"
+                        },
+                        {
+                            "$": "repository"
+                        },
+                        {
+                            "$": "repositoryvor"
+                        }
+                    ]
+                },
+                "freetoreadLabel": {
+                    "value": [
+                        {
+                            "$": "All Open Access"
+                        },
+                        {
+                            "$": "Gold"
+                        },
+                        {
+                            "$": "Green"
+                        }
+                    ]
+                }
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85107620346"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85107620346?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85107620346&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85107620346&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85107620346",
+                "dc:identifier": "SCOPUS_ID:85107620346",
+                "eid": "2-s2.0-85107620346",
+                "dc:title": "Extended-release tofacitinib improves refractory Takayasu’s arteritis",
+                "dc:creator": "Wang C.R.",
+                "prism:publicationName": "Scandinavian Journal of Rheumatology",
+                "prism:issn": "03009742",
+                "prism:eIssn": "15027732",
+                "prism:pageRange": null,
+                "prism:coverDate": "2021-01-01",
+                "prism:coverDisplayDate": "2021",
+                "prism:doi": "10.1080/03009742.2021.1911054",
+                "citedby-count": "1",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University Hospital",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "prism:aggregationType": "Journal",
+                "subtype": "ed",
+                "subtypeDescription": "Editorial",
+                "source-id": "19781",
+                "openaccess": "0",
+                "openaccessFlag": false
+            }
+        ]
+    }
+}

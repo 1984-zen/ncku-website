@@ -1,0 +1,912 @@
+{
+    "search-results": {
+        "opensearch:totalResults": "12",
+        "opensearch:startIndex": "0",
+        "opensearch:itemsPerPage": "12",
+        "opensearch:Query": {
+            "@role": "request",
+            "@searchTerms": "AU-ID(57195805693)",
+            "@startPage": "0"
+        },
+        "link": [
+            {
+                "@_fa": "true",
+                "@ref": "self",
+                "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=150&query=AU-ID%2857195805693%29&sort=+coverDate,%20+prism:aggregationType",
+                "@type": "application/json"
+            },
+            {
+                "@_fa": "true",
+                "@ref": "first",
+                "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=150&query=AU-ID%2857195805693%29&sort=+coverDate,%20+prism:aggregationType",
+                "@type": "application/json"
+            }
+        ],
+        "entry": [
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85112450417"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85112450417?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85112450417&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85112450417&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85112450417",
+                "dc:identifier": "SCOPUS_ID:85112450417",
+                "eid": "2-s2.0-85112450417",
+                "dc:title": "Post cardiac injury syndrome successfully treated with medications: a report of two cases",
+                "dc:creator": "Huang M.S.",
+                "prism:publicationName": "BMC Cardiovascular Disorders",
+                "prism:eIssn": "14712261",
+                "prism:volume": "21",
+                "prism:issueIdentifier": "1",
+                "prism:pageRange": null,
+                "prism:coverDate": "2021-12-01",
+                "prism:coverDisplayDate": "December 2021",
+                "prism:doi": "10.1186/s12872-021-02200-5",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University Hospital",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "34391394",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "article-number": "394",
+                "source-id": "22487",
+                "openaccess": "1",
+                "openaccessFlag": true,
+                "freetoread": {
+                    "value": [
+                        {
+                            "$": "all"
+                        },
+                        {
+                            "$": "publisherfullgold"
+                        },
+                        {
+                            "$": "repository"
+                        },
+                        {
+                            "$": "repositoryvor"
+                        }
+                    ]
+                },
+                "freetoreadLabel": {
+                    "value": [
+                        {
+                            "$": "All Open Access"
+                        },
+                        {
+                            "$": "Gold"
+                        },
+                        {
+                            "$": "Green"
+                        }
+                    ]
+                }
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85107500698"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85107500698?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85107500698&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85107500698&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85107500698",
+                "dc:identifier": "SCOPUS_ID:85107500698",
+                "eid": "2-s2.0-85107500698",
+                "dc:title": "Higher premature atrial complex burden from the Holter examination predicts poor cardiovascular outcome",
+                "dc:creator": "Huang T.C.",
+                "prism:publicationName": "Scientific Reports",
+                "prism:eIssn": "20452322",
+                "prism:volume": "11",
+                "prism:issueIdentifier": "1",
+                "prism:pageRange": null,
+                "prism:coverDate": "2021-12-01",
+                "prism:coverDisplayDate": "December 2021",
+                "prism:doi": "10.1038/s41598-021-91800-4",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University Hospital",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University College of Medicine",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "34108588",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "article-number": "12198",
+                "source-id": "21100200805",
+                "openaccess": "1",
+                "openaccessFlag": true,
+                "freetoread": {
+                    "value": [
+                        {
+                            "$": "all"
+                        },
+                        {
+                            "$": "publisherfullgold"
+                        },
+                        {
+                            "$": "repository"
+                        },
+                        {
+                            "$": "repositoryvor"
+                        }
+                    ]
+                },
+                "freetoreadLabel": {
+                    "value": [
+                        {
+                            "$": "All Open Access"
+                        },
+                        {
+                            "$": "Gold"
+                        },
+                        {
+                            "$": "Green"
+                        }
+                    ]
+                }
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85107116642"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85107116642?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85107116642&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85107116642&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85107116642",
+                "dc:identifier": "SCOPUS_ID:85107116642",
+                "eid": "2-s2.0-85107116642",
+                "dc:title": "Pseudoxanthoma elasticum with null cell adenoma of the pituitary gland: A case report with multimodal imaging study",
+                "dc:creator": "Su Y.C.",
+                "prism:publicationName": "Kaohsiung Journal of Medical Sciences",
+                "prism:issn": "1607551X",
+                "prism:eIssn": "24108650",
+                "prism:volume": "37",
+                "prism:issueIdentifier": "9",
+                "prism:pageRange": "828-830",
+                "prism:coverDate": "2021-09-01",
+                "prism:coverDisplayDate": "September 2021",
+                "prism:doi": "10.1002/kjm2.12402",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University Hospital",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "34085378",
+                "prism:aggregationType": "Journal",
+                "subtype": "le",
+                "subtypeDescription": "Letter",
+                "source-id": "16467",
+                "openaccess": "1",
+                "openaccessFlag": true,
+                "freetoread": {
+                    "value": [
+                        {
+                            "$": "all"
+                        },
+                        {
+                            "$": "publisherfullgold"
+                        }
+                    ]
+                },
+                "freetoreadLabel": {
+                    "value": [
+                        {
+                            "$": "All Open Access"
+                        },
+                        {
+                            "$": "Gold"
+                        }
+                    ]
+                }
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85117963829"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85117963829?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85117963829&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85117963829&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85117963829",
+                "dc:identifier": "SCOPUS_ID:85117963829",
+                "eid": "2-s2.0-85117963829",
+                "dc:title": "Carotid vascular strain predicts cardiovascular events in patients with hypertension",
+                "dc:creator": "Tsai W.C.",
+                "prism:publicationName": "Echocardiography",
+                "prism:issn": "07422822",
+                "prism:eIssn": "15408175",
+                "prism:pageRange": null,
+                "prism:coverDate": "2021-01-01",
+                "prism:coverDisplayDate": "2021",
+                "prism:doi": "10.1111/echo.15231",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University Hospital",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "Kuo General Hospital Taiwan",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "23159",
+                "openaccess": "0",
+                "openaccessFlag": false,
+                "freetoread": {
+                    "value": [
+                        {
+                            "$": "all"
+                        },
+                        {
+                            "$": "repository"
+                        },
+                        {
+                            "$": "repositoryam"
+                        }
+                    ]
+                },
+                "freetoreadLabel": {
+                    "value": [
+                        {
+                            "$": "All Open Access"
+                        },
+                        {
+                            "$": "Green"
+                        }
+                    ]
+                }
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85103635829"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85103635829?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85103635829&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85103635829&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85103635829",
+                "dc:identifier": "SCOPUS_ID:85103635829",
+                "eid": "2-s2.0-85103635829",
+                "dc:title": "Reduced-dose prasugrel versus clopidogrel for patients undergoing percutaneous coronary intervention: A meta-analysis of randomized and observational studies",
+                "dc:creator": "Lee C.H.",
+                "prism:publicationName": "International Heart Journal",
+                "prism:issn": "13492365",
+                "prism:eIssn": "13493299",
+                "prism:volume": "62",
+                "prism:issueIdentifier": "2",
+                "prism:pageRange": "246-255",
+                "prism:coverDate": "2021-01-01",
+                "prism:coverDisplayDate": "2021",
+                "prism:doi": "10.1536/ihj.20-508",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University Hospital",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University College of Medicine",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "33731521",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "3900148506",
+                "openaccess": "1",
+                "openaccessFlag": true,
+                "freetoread": {
+                    "value": [
+                        {
+                            "$": "all"
+                        },
+                        {
+                            "$": "publisherfree2read"
+                        }
+                    ]
+                },
+                "freetoreadLabel": {
+                    "value": [
+                        {
+                            "$": "All Open Access"
+                        },
+                        {
+                            "$": "Bronze"
+                        }
+                    ]
+                }
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85100070306"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85100070306?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85100070306&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85100070306&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85100070306",
+                "dc:identifier": "SCOPUS_ID:85100070306",
+                "eid": "2-s2.0-85100070306",
+                "dc:title": "The impact of permanent pacemaker implantation on thallium myocardial perfusion examination detecting ischemic heart disease",
+                "dc:creator": "Huang M.S.",
+                "prism:publicationName": "Nuclear Medicine Communications",
+                "prism:issn": "01433636",
+                "prism:eIssn": "14735628",
+                "prism:pageRange": "190-197",
+                "prism:coverDate": "2021-01-01",
+                "prism:coverDisplayDate": "2021",
+                "prism:doi": "10.1097/MNM.0000000000001319",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University Hospital",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "33165253",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "17325",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85096136775"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85096136775?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85096136775&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85096136775&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85096136775",
+                "dc:identifier": "SCOPUS_ID:85096136775",
+                "eid": "2-s2.0-85096136775",
+                "dc:title": "Comparison of minimally invasive thrombectomy with percutaneous balloon angioplasty for organized thrombi in hemodialysis access",
+                "dc:creator": "Chong J.T.",
+                "prism:publicationName": "Acta Cardiologica Sinica",
+                "prism:issn": "10116842",
+                "prism:volume": "36",
+                "prism:issueIdentifier": "6",
+                "prism:pageRange": "603-610",
+                "prism:coverDate": "2020-11-01",
+                "prism:coverDisplayDate": "November 2020",
+                "prism:doi": "10.6515/ACS.202011_36(6).20200621B",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "Ping Tung Christian Hospital Taiwan",
+                        "affiliation-city": "Pingtung",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "20701",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85092945532"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85092945532?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85092945532&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85092945532&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85092945532",
+                "dc:identifier": "SCOPUS_ID:85092945532",
+                "eid": "2-s2.0-85092945532",
+                "dc:title": "Application of an Artificial Intelligence Trilogy to Accelerate Processing of Suspected Patients with SARS-CoV-2 at a Smart Quarantine Station: Observational Study",
+                "dc:creator": "Liu P.Y.",
+                "prism:publicationName": "Journal of Medical Internet Research",
+                "prism:eIssn": "14388871",
+                "prism:volume": "22",
+                "prism:issueIdentifier": "10",
+                "prism:pageRange": null,
+                "prism:coverDate": "2020-10-01",
+                "prism:coverDisplayDate": "October 2020",
+                "prism:doi": "10.2196/19878",
+                "citedby-count": "2",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University Hospital",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University College of Medicine",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "33001832",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "article-number": "e19878",
+                "source-id": "23709",
+                "openaccess": "1",
+                "openaccessFlag": true,
+                "freetoread": {
+                    "value": [
+                        {
+                            "$": "all"
+                        },
+                        {
+                            "$": "publisherfullgold"
+                        },
+                        {
+                            "$": "repository"
+                        },
+                        {
+                            "$": "repositoryvor"
+                        }
+                    ]
+                },
+                "freetoreadLabel": {
+                    "value": [
+                        {
+                            "$": "All Open Access"
+                        },
+                        {
+                            "$": "Gold"
+                        },
+                        {
+                            "$": "Green"
+                        }
+                    ]
+                }
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85078661326"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85078661326?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85078661326&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85078661326&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85078661326",
+                "dc:identifier": "SCOPUS_ID:85078661326",
+                "eid": "2-s2.0-85078661326",
+                "dc:title": "Asclepius and Yellow Ribbon techniques: Efficacious alternative strategies for advancing a coronary sinus electrophysiology catheter",
+                "dc:creator": "Chen T.W.",
+                "prism:publicationName": "Annals of Noninvasive Electrocardiology",
+                "prism:issn": "1082720X",
+                "prism:eIssn": "1542474X",
+                "prism:volume": "25",
+                "prism:issueIdentifier": "4",
+                "prism:pageRange": null,
+                "prism:coverDate": "2020-07-01",
+                "prism:coverDisplayDate": "1 July 2020",
+                "prism:doi": "10.1111/anec.12740",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University Hospital",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "31957119",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "article-number": "e12740",
+                "source-id": "22445",
+                "openaccess": "1",
+                "openaccessFlag": true,
+                "freetoread": {
+                    "value": [
+                        {
+                            "$": "all"
+                        },
+                        {
+                            "$": "publisherhybridgold"
+                        },
+                        {
+                            "$": "repository"
+                        },
+                        {
+                            "$": "repositoryvor"
+                        }
+                    ]
+                },
+                "freetoreadLabel": {
+                    "value": [
+                        {
+                            "$": "All Open Access"
+                        },
+                        {
+                            "$": "Hybrid Gold"
+                        },
+                        {
+                            "$": "Green"
+                        }
+                    ]
+                }
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85093906219"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85093906219?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85093906219&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85093906219&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85093906219",
+                "dc:identifier": "SCOPUS_ID:85093906219",
+                "eid": "2-s2.0-85093906219",
+                "dc:title": "Automated recognition of regional wall motion abnormalities through deep neural network interpretation of transthoracic echocardiography",
+                "dc:creator": "Huang M.S.",
+                "prism:publicationName": "Circulation",
+                "prism:issn": "00097322",
+                "prism:eIssn": "15244539",
+                "prism:pageRange": "1510-1520",
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "2020",
+                "prism:doi": "10.1161/CIRCULATIONAHA.120.047530",
+                "citedby-count": "4",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University Hospital",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "32964749",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "22581",
+                "openaccess": "1",
+                "openaccessFlag": true,
+                "freetoread": {
+                    "value": [
+                        {
+                            "$": "all"
+                        },
+                        {
+                            "$": "publisherfree2read"
+                        }
+                    ]
+                },
+                "freetoreadLabel": {
+                    "value": [
+                        {
+                            "$": "All Open Access"
+                        },
+                        {
+                            "$": "Bronze"
+                        }
+                    ]
+                }
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85060755037"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85060755037?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85060755037&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85060755037&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "full-text",
+                        "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0167527318346126"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85060755037",
+                "dc:identifier": "SCOPUS_ID:85060755037",
+                "eid": "2-s2.0-85060755037",
+                "dc:title": "Value of layer-specific strain distribution patterns in hypertrophied myocardium from different etiologies",
+                "dc:creator": "Huang M.s.",
+                "prism:publicationName": "International Journal of Cardiology",
+                "prism:issn": "01675273",
+                "prism:eIssn": "18741754",
+                "prism:volume": "281",
+                "prism:pageRange": "69-75",
+                "prism:coverDate": "2019-04-15",
+                "prism:coverDisplayDate": "15 April 2019",
+                "prism:doi": "10.1016/j.ijcard.2019.01.044",
+                "pii": "S0167527318346126",
+                "citedby-count": "5",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University Hospital",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "Tainan Hospital",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "30711265",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "23774",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85029825705"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85029825705?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85029825705&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85029825705&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85029825705",
+                "dc:identifier": "SCOPUS_ID:85029825705",
+                "eid": "2-s2.0-85029825705",
+                "dc:title": "The efficacy and safety of using extension catheters in complex coronary interventions: A single center experience",
+                "dc:creator": "Huang M.S.",
+                "prism:publicationName": "Acta Cardiologica Sinica",
+                "prism:issn": "10116842",
+                "prism:volume": "33",
+                "prism:issueIdentifier": "5",
+                "prism:pageRange": "468-476",
+                "prism:coverDate": "2017-09-01",
+                "prism:coverDisplayDate": "September 2017",
+                "prism:doi": "10.6515/ACS20170523B",
+                "citedby-count": "7",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University Hospital",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "20701",
+                "openaccess": "0",
+                "openaccessFlag": false
+            }
+        ]
+    }
+}

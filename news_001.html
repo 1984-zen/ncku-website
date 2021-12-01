@@ -6,10 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title></title>
         <link rel="stylesheet" href="./style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <input type="checkbox" id="menu_control">
         <div id="app">
             <header class="header_container">
                 <h1 class="logo"><a href="./index.html"><img src="./images/logo.jpg" /></a></h1>
@@ -33,36 +35,38 @@
                 </nav>
             </header>
             <main>
-                <article class="background_cool_gray gap">
+                <div class="gap">
                     <div class="article_container">
-                        <div class="recommanded_links">
-                            <h1>建議連結</h1>
-                            <table border="0" cellspacing="0">
-                                <tbody>
-                                    <tr>
-                                        <td><a href="https://www.ncbi.nlm.nih.gov/medgen/">NCBI MedGen 資料庫搜尋引擎</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="https://www.cancer.gov/about-nci/organization/ccg">Center for Cancer Genomics (CCG)</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="https://www.cancer.gov/about-nci/organization/ccg/blog?page=0">CCG Updates & Insights</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="https://aiacademy.tw/">台灣人工智慧學校</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="https://ibmi.taiwan-healthcare.org/zh/epaper.php">立即訂閱【生策會電子報】</a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                        <div id="news_detail">
+                            <div class="news_detail_container">
+                                <div class="news_detail_decoration">
+                                    <h1>恭賀</h1>
+                                </div>
+                                <article class="news_detail_decoration">
+                                    <header>
+                                        <h3>劉秉彥 醫師</h3>
+                                    </header>
+                                    <main>
+                                        <h4>社團法人台灣醫務管理學會</h4>
+                                        <h3>2021 年</h3>
+                                        <h4>台灣健康照護品質管理競賽</h4>
+                                        <h4>機構組-病人流</h4>
+                                        <h2>【銀獎】</h2>
+                                    </main>
+                                </article>
+                                <footer>
+                                    <div class="nowrap"><span>成大醫院內科部</span></div>
+                                    <div class="wrap"><span>李貽恒主任</span><span>暨全體同仁</span></div>
+                                    <div class="nowrap"><span>敬賀</span></div>
+                                </footer>
+                            </div>
                         </div>
                     </div>
-                </article>
+                </div>
             </main>
             <footer><h3>Copyright &copy; 2021 國立成功大學醫學院附設醫院內科部 All Right Reserved</h3></footer>
         </div>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
         <script src="js/common.js" charset="UTF-8" type="text/javascript"></script>
     </body>
 </html>

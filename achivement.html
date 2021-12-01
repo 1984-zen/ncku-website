@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title></title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+
+    <body>
+        <input type="checkbox" id="menu_control">
+        <div id="app">
+            <header class="header_container">
+                <h1 class="logo"><a href="./index.html"><img src="./images/logo.jpg" /></a></h1>
+                <label for="menu_control" class="menu_btn"><span>選單</span></label>
+                <div class="login"><a href="#">Log in</a></div>
+                <nav class="desktop_menu">
+                    <a href="./solutions.html">Solutions</a>
+                    <a href="./about_us.html">About Us</a>
+                    <a href="./achivement.html">Achievement & Award</a>
+                    <a href="./explore_genomics.html">Explore Genomics</a>
+                    <a href="./links.html">recommanded Links for AI</a>
+                </nav>
+                <nav class="mobile_menu">
+                    <a href="./index.html">Home</a>
+                    <a href="./solutions.html">Solutions</a>
+                    <a href="./about_us.html">About Us</a>
+                    <a href="./achivement.html">Achievement & Award</a>
+                    <a href="./explore_genomics.html">Explore Genomics</a>
+                    <a href="./links.html">recommanded Links for AI</a>
+                    <a href="#">Log in</a>
+                </nav>
+            </header>
+            <main>
+                <div class="award_submenu_container">
+                    <nav class="desktop_award_submenu">
+                        <a class="research_anchor active">研究成果</a>
+                        <a class="award_anchor">獲獎訊息</a>
+                    </nav>
+                    <nav class="mobile_award_submenu">
+                        <a class="research_anchor active">研究成果</a>
+                        <a class="award_anchor">獲獎訊息</a>
+                    </nav>
+                </div>
+                <div class="article_container gap">
+                    <div class="research">
+                        <div class="research_container"></div>
+                    </div>
+                </div>
+                <div id="news">
+                    <div id="news_content">
+                        <p class="awardTitle">
+                            <span>全部</span>
+                            <span>最新獲獎消息</span>
+                            一覽：
+                        </p>
+                        <div id="news_list"></div>
+                    </div>
+                    <div id="year">
+                        <button>依年份分類</button>
+                        <ul id="news_year">
+                            <li class="allYears active">所有年份</li>
+                            <li class="selectYear">2021 年</li>
+                            <li class="selectYear">2020 年</li>
+                            <li class="selectYear">2019 年</li>
+                        </ul>
+                    </div>
+                    <div id="pagenator">
+                        <ul>
+                            <li id="first" class="btn btn-success"><span class="paginator_first_page"></span></li>
+                            <li id="prev" class="btn btn-success"><span class="paginator_previous_page"></span></li>
+                            <li id="paginatorNumbers"></li>
+                            <li id="next" class="btn btn-success"><span class="paginator_next_page"></span></li>
+                            <li id="last" class="btn btn-success"><span class="paginator_last_page"></span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </main>
+            <footer><h3>Copyright &copy; 2021 國立成功大學醫學院附設醫院內科部 All Right Reserved</h3></footer>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script src="js/common.js" charset="UTF-8" type="text/javascript"></script>
+        <script src="js/award_news.js" charset="UTF-8" type="text/javascript"></script>
+        <script src="js/achivement_research.js" charset="UTF-8" type="text/javascript"></script>
+    </body>
+</html>

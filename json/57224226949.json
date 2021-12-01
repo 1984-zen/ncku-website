@@ -1,0 +1,191 @@
+{
+    "search-results": {
+        "opensearch:totalResults": "2",
+        "opensearch:startIndex": "0",
+        "opensearch:itemsPerPage": "2",
+        "opensearch:Query": {
+            "@role": "request",
+            "@searchTerms": "AU-ID(57224226949)",
+            "@startPage": "0"
+        },
+        "link": [
+            {
+                "@_fa": "true",
+                "@ref": "self",
+                "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=150&query=AU-ID%2857224226949%29&sort=+coverDate,%20+prism:aggregationType",
+                "@type": "application/json"
+            },
+            {
+                "@_fa": "true",
+                "@ref": "first",
+                "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=150&query=AU-ID%2857224226949%29&sort=+coverDate,%20+prism:aggregationType",
+                "@type": "application/json"
+            }
+        ],
+        "entry": [
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85112046735"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85112046735?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85112046735&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85112046735&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85112046735",
+                "dc:identifier": "SCOPUS_ID:85112046735",
+                "eid": "2-s2.0-85112046735",
+                "dc:title": "Comparison of lesion characteristics between conventional and high-power short-duration ablation using contact force-sensing catheter in patients with paroxysmal atrial fibrillation",
+                "dc:creator": "Chen C.C.",
+                "prism:publicationName": "BMC Cardiovascular Disorders",
+                "prism:eIssn": "14712261",
+                "prism:volume": "21",
+                "prism:issueIdentifier": "1",
+                "prism:pageRange": null,
+                "prism:coverDate": "2021-12-01",
+                "prism:coverDisplayDate": "December 2021",
+                "prism:doi": "10.1186/s12872-021-02196-y",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "Taipei Medical University Shuang-Ho Hospital",
+                        "affiliation-city": "New Taipei City",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "College of Medicine",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "Taipei Medical University",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "Veterans General Hospital-Taipei",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "34372779",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "article-number": "387",
+                "source-id": "22487",
+                "openaccess": "1",
+                "openaccessFlag": true,
+                "freetoread": {
+                    "value": [
+                        {
+                            "$": "all"
+                        },
+                        {
+                            "$": "publisherfullgold"
+                        },
+                        {
+                            "$": "repository"
+                        },
+                        {
+                            "$": "repositoryvor"
+                        }
+                    ]
+                },
+                "freetoreadLabel": {
+                    "value": [
+                        {
+                            "$": "All Open Access"
+                        },
+                        {
+                            "$": "Gold"
+                        },
+                        {
+                            "$": "Green"
+                        }
+                    ]
+                }
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85116172970"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85116172970?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85116172970&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85116172970&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85116172970",
+                "dc:identifier": "SCOPUS_ID:85116172970",
+                "eid": "2-s2.0-85116172970",
+                "dc:title": "Clinical significance of J waves with respect to substrate characteristics and ablation outcomes in patients with arrhythmogenic right ventricular cardiomyopathy",
+                "dc:creator": "Lin C.Y.",
+                "prism:publicationName": "Europace",
+                "prism:issn": "10995129",
+                "prism:eIssn": "15322092",
+                "prism:volume": "23",
+                "prism:issueIdentifier": "9",
+                "prism:pageRange": "1418-1427",
+                "prism:coverDate": "2021-09-01",
+                "prism:coverDisplayDate": "1 September 2021",
+                "prism:doi": "10.1093/europace/euab060",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Yang-Ming University Taiwan",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "Veterans General Hospital-Taipei",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "33734367",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "23181",
+                "openaccess": "0",
+                "openaccessFlag": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,1498 @@
+{
+    "search-results": {
+        "opensearch:totalResults": "21",
+        "opensearch:startIndex": "0",
+        "opensearch:itemsPerPage": "21",
+        "opensearch:Query": {
+            "@role": "request",
+            "@searchTerms": "AU-ID(57200671456)",
+            "@startPage": "0"
+        },
+        "link": [
+            {
+                "@_fa": "true",
+                "@ref": "self",
+                "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=150&query=AU-ID%2857200671456%29&sort=+coverDate,%20+prism:aggregationType",
+                "@type": "application/json"
+            },
+            {
+                "@_fa": "true",
+                "@ref": "first",
+                "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=150&query=AU-ID%2857200671456%29&sort=+coverDate,%20+prism:aggregationType",
+                "@type": "application/json"
+            }
+        ],
+        "entry": [
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85107500698"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85107500698?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85107500698&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85107500698&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85107500698",
+                "dc:identifier": "SCOPUS_ID:85107500698",
+                "eid": "2-s2.0-85107500698",
+                "dc:title": "Higher premature atrial complex burden from the Holter examination predicts poor cardiovascular outcome",
+                "dc:creator": "Huang T.C.",
+                "prism:publicationName": "Scientific Reports",
+                "prism:eIssn": "20452322",
+                "prism:volume": "11",
+                "prism:issueIdentifier": "1",
+                "prism:pageRange": null,
+                "prism:coverDate": "2021-12-01",
+                "prism:coverDisplayDate": "December 2021",
+                "prism:doi": "10.1038/s41598-021-91800-4",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University Hospital",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University College of Medicine",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "34108588",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "article-number": "12198",
+                "source-id": "21100200805",
+                "openaccess": "1",
+                "openaccessFlag": true,
+                "freetoread": {
+                    "value": [
+                        {
+                            "$": "all"
+                        },
+                        {
+                            "$": "publisherfullgold"
+                        },
+                        {
+                            "$": "repository"
+                        },
+                        {
+                            "$": "repositoryvor"
+                        }
+                    ]
+                },
+                "freetoreadLabel": {
+                    "value": [
+                        {
+                            "$": "All Open Access"
+                        },
+                        {
+                            "$": "Gold"
+                        },
+                        {
+                            "$": "Green"
+                        }
+                    ]
+                }
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85114486020"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85114486020?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85114486020&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85114486020&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85114486020",
+                "dc:identifier": "SCOPUS_ID:85114486020",
+                "eid": "2-s2.0-85114486020",
+                "dc:title": "Distribution of triggers foci and outcomes of catheter ablation in atrial fibrillation patients in different age groups",
+                "dc:creator": "Lin C.H.",
+                "prism:publicationName": "PACE - Pacing and Clinical Electrophysiology",
+                "prism:issn": "01478389",
+                "prism:eIssn": "15408159",
+                "prism:volume": "44",
+                "prism:issueIdentifier": "10",
+                "prism:pageRange": "1724-1732",
+                "prism:coverDate": "2021-10-01",
+                "prism:coverDisplayDate": "October 2021",
+                "prism:doi": "10.1111/pace.14347",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "Taipei Medical University Shuang-Ho Hospital",
+                        "affiliation-city": "New Taipei City",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Yang Ming Chiao Tung University",
+                        "affiliation-city": "Hsinchu",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Yang-Ming University Taiwan",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "Taipei Medical University",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "Veterans General Hospital-Taipei",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "34449092",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "20516",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85092648869"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85092648869?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85092648869&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85092648869&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85092648869",
+                "dc:identifier": "SCOPUS_ID:85092648869",
+                "eid": "2-s2.0-85092648869",
+                "dc:title": "Successful trans-septal ablation of a left concealed accessory pathway in a patient receiving surgical mitral valve repair and mechanical aortic valve replacement",
+                "dc:creator": "Huang T.C.",
+                "prism:publicationName": "Annals of Noninvasive Electrocardiology",
+                "prism:issn": "1082720X",
+                "prism:eIssn": "1542474X",
+                "prism:volume": "26",
+                "prism:issueIdentifier": "3",
+                "prism:pageRange": null,
+                "prism:coverDate": "2021-05-01",
+                "prism:coverDisplayDate": "May 2021",
+                "prism:doi": "10.1111/anec.12808",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University Hospital",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "33070413",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "article-number": "e12808",
+                "source-id": "22445",
+                "openaccess": "1",
+                "openaccessFlag": true,
+                "freetoread": {
+                    "value": [
+                        {
+                            "$": "all"
+                        },
+                        {
+                            "$": "publisherhybridgold"
+                        },
+                        {
+                            "$": "repository"
+                        },
+                        {
+                            "$": "repositoryvor"
+                        }
+                    ]
+                },
+                "freetoreadLabel": {
+                    "value": [
+                        {
+                            "$": "All Open Access"
+                        },
+                        {
+                            "$": "Hybrid Gold"
+                        },
+                        {
+                            "$": "Green"
+                        }
+                    ]
+                }
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85084649730"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85084649730?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85084649730&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85084649730&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "full-text",
+                        "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S154752712030076X"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85084649730",
+                "dc:identifier": "SCOPUS_ID:85084649730",
+                "eid": "2-s2.0-85084649730",
+                "dc:title": "The presence of ectopic atrial rhythm predicts adverse cardiovascular outcomes in a large hospital-based population",
+                "dc:creator": "Huang S.H.",
+                "prism:publicationName": "Heart Rhythm",
+                "prism:issn": "15475271",
+                "prism:eIssn": "15563871",
+                "prism:volume": "17",
+                "prism:issueIdentifier": "6",
+                "prism:pageRange": "967-974",
+                "prism:coverDate": "2020-06-01",
+                "prism:coverDisplayDate": "June 2020",
+                "prism:doi": "10.1016/j.hrthm.2020.01.024",
+                "pii": "S154752712030076X",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Yang-Ming University Taiwan",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "Veterans General Hospital-Taipei",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "32028045",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "23246",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85061000316"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85061000316?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85061000316&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85061000316&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85061000316",
+                "dc:identifier": "SCOPUS_ID:85061000316",
+                "eid": "2-s2.0-85061000316",
+                "dc:title": "Dynamic unipolar voltage criteria of right ventricular septum for identifying left ventricular septal scar",
+                "dc:creator": "Lin C.Y.",
+                "prism:publicationName": "Journal of Interventional Cardiac Electrophysiology",
+                "prism:issn": "1383875X",
+                "prism:eIssn": "15728595",
+                "prism:volume": "57",
+                "prism:issueIdentifier": "3",
+                "prism:pageRange": "353-359",
+                "prism:coverDate": "2020-04-01",
+                "prism:coverDisplayDate": "1 April 2020",
+                "prism:doi": "10.1007/s10840-019-00512-3",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Yang-Ming University Taiwan",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "Veterans General Hospital-Taipei",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "30694424",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "23879",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85091112497"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85091112497?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85091112497&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85091112497&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85091112497",
+                "dc:identifier": "SCOPUS_ID:85091112497",
+                "eid": "2-s2.0-85091112497",
+                "dc:title": "An unusual route for intracardiac cardioverter-defibrillator ventricular lead implantation in a ventricular tachycardia patient with tetralogy of fallot",
+                "dc:creator": "Lee J.Y.",
+                "prism:publicationName": "Acta Cardiologica Sinica",
+                "prism:issn": "10116842",
+                "prism:volume": "36",
+                "prism:issueIdentifier": "5",
+                "prism:pageRange": "525-527",
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "2020",
+                "prism:doi": "10.6515/ACS.202009_36(5).20200614A",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University Hospital",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "prism:aggregationType": "Journal",
+                "subtype": "le",
+                "subtypeDescription": "Letter",
+                "source-id": "20701",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85076721598"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85076721598?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85076721598&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85076721598&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85076721598",
+                "dc:identifier": "SCOPUS_ID:85076721598",
+                "eid": "2-s2.0-85076721598",
+                "dc:title": "Outcome of rescue ablation in patients with refractory ventricular electrical storm requiring mechanical circulation support",
+                "dc:creator": "Chung F.P.",
+                "prism:publicationName": "Journal of Cardiovascular Electrophysiology",
+                "prism:issn": "10453873",
+                "prism:eIssn": "15408167",
+                "prism:volume": "31",
+                "prism:issueIdentifier": "1",
+                "prism:pageRange": "9-17",
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "1 January 2020",
+                "prism:doi": "10.1111/jce.14309",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Yang-Ming University Taiwan",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "Veterans General Hospital-Taipei",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "31808239",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "23832",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85073931373"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85073931373?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85073931373&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85073931373&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85073931373",
+                "dc:identifier": "SCOPUS_ID:85073931373",
+                "eid": "2-s2.0-85073931373",
+                "dc:title": "Gastroesophageal reflux disease and atrial fibrillation: Insight from autonomic cardiogastric neural interaction",
+                "dc:creator": "Huang T.C.",
+                "prism:publicationName": "Journal of Cardiovascular Electrophysiology",
+                "prism:issn": "10453873",
+                "prism:eIssn": "15408167",
+                "prism:volume": "30",
+                "prism:issueIdentifier": "11",
+                "prism:pageRange": "2262-2270",
+                "prism:coverDate": "2019-11-01",
+                "prism:coverDisplayDate": "1 November 2019",
+                "prism:doi": "10.1111/jce.14181",
+                "citedby-count": "3",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University Hospital",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "Veterans General Hospital-Taipei",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University College of Medicine",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "31515888",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "23832",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85065237083"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85065237083?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85065237083&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85065237083&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85065237083",
+                "dc:identifier": "SCOPUS_ID:85065237083",
+                "eid": "2-s2.0-85065237083",
+                "dc:title": "Electrophysiological and clinical characteristics of catheter ablation for isolated left side atrial tachycardia over a 10-year period",
+                "dc:creator": "Vicera J.J.B.",
+                "prism:publicationName": "Journal of Cardiovascular Electrophysiology",
+                "prism:issn": "10453873",
+                "prism:eIssn": "15408167",
+                "prism:volume": "30",
+                "prism:issueIdentifier": "7",
+                "prism:pageRange": "1013-1025",
+                "prism:coverDate": "2019-07-01",
+                "prism:coverDisplayDate": "July 2019",
+                "prism:doi": "10.1111/jce.13945",
+                "citedby-count": "3",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "Veterans General Hospital-Taipei",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "30977218",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "23832",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85061058655"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85061058655?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85061058655&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85061058655&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85061058655",
+                "dc:identifier": "SCOPUS_ID:85061058655",
+                "eid": "2-s2.0-85061058655",
+                "dc:title": "Characteristics of recurrent ventricular tachyarrhythmia after catheter ablation in patients with arrhythmogenic right ventricular cardiomyopathy",
+                "dc:creator": "Lin C.Y.",
+                "prism:publicationName": "Journal of Cardiovascular Electrophysiology",
+                "prism:issn": "10453873",
+                "prism:eIssn": "15408167",
+                "prism:volume": "30",
+                "prism:issueIdentifier": "4",
+                "prism:pageRange": "582-592",
+                "prism:coverDate": "2019-04-01",
+                "prism:coverDisplayDate": "April 2019",
+                "prism:doi": "10.1111/jce.13853",
+                "citedby-count": "7",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Yang-Ming University Taiwan",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "Veterans General Hospital-Taipei",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "30699244",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "23832",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85058011340"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85058011340?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85058011340&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85058011340&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "full-text",
+                        "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0002914918321519"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85058011340",
+                "dc:identifier": "SCOPUS_ID:85058011340",
+                "eid": "2-s2.0-85058011340",
+                "dc:title": "Bleeding and New-Onset Cancers in Patients With Atrial Fibrillation Receiving Nonvitamin K Antagonist Oral Anticoagulants",
+                "dc:creator": "Hu Y.F.",
+                "prism:publicationName": "American Journal of Cardiology",
+                "prism:issn": "00029149",
+                "prism:eIssn": "18791913",
+                "prism:volume": "123",
+                "prism:issueIdentifier": "5",
+                "prism:pageRange": "782-786",
+                "prism:coverDate": "2019-03-01",
+                "prism:coverDisplayDate": "1 March 2019",
+                "prism:doi": "10.1016/j.amjcard.2018.11.046",
+                "pii": "S0002914918321519",
+                "citedby-count": "3",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Yang-Ming University Taiwan",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "Veterans General Hospital-Taipei",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "30551841",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "22415",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85066467840"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85066467840?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85066467840&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85066467840&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85066467840",
+                "dc:identifier": "SCOPUS_ID:85066467840",
+                "eid": "2-s2.0-85066467840",
+                "dc:title": "Long-term efficacy and safety of adjunctive ethanol infusion into the vein of Marshall during catheter ablation for nonparoxysmal atrial fibrillation",
+                "dc:creator": "Liu C.M.",
+                "prism:publicationName": "Journal of Cardiovascular Electrophysiology",
+                "prism:issn": "10453873",
+                "prism:eIssn": "15408167",
+                "prism:volume": "30",
+                "prism:issueIdentifier": "8",
+                "prism:pageRange": "1215-1228",
+                "prism:coverDate": "2019-01-01",
+                "prism:coverDisplayDate": "2019",
+                "prism:doi": "10.1111/jce.13969",
+                "citedby-count": "10",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Yang-Ming University Taiwan",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "Veterans General Hospital-Taipei",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "31148287",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "23832",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85065638584"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85065638584?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85065638584&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85065638584&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85065638584",
+                "dc:identifier": "SCOPUS_ID:85065638584",
+                "eid": "2-s2.0-85065638584",
+                "dc:title": "Elevated platelet galectin-3 and rho-associated protein kinase activity are associated with hemodialysis arteriovenous shunt dysfunction among subjects with diabetes mellitus",
+                "dc:creator": "Chen P.W.",
+                "prism:publicationName": "BioMed Research International",
+                "prism:issn": "23146133",
+                "prism:eIssn": "23146141",
+                "prism:volume": "2019",
+                "prism:pageRange": null,
+                "prism:coverDate": "2019-01-01",
+                "prism:coverDisplayDate": "2019",
+                "prism:doi": "10.1155/2019/8952414",
+                "citedby-count": "3",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University Hospital",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University College of Medicine",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "31080833",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "article-number": "8952414",
+                "source-id": "21100230018",
+                "openaccess": "1",
+                "openaccessFlag": true,
+                "freetoread": {
+                    "value": [
+                        {
+                            "$": "all"
+                        },
+                        {
+                            "$": "publisherfullgold"
+                        },
+                        {
+                            "$": "repository"
+                        },
+                        {
+                            "$": "repositoryvor"
+                        },
+                        {
+                            "$": "repositoryam"
+                        }
+                    ]
+                },
+                "freetoreadLabel": {
+                    "value": [
+                        {
+                            "$": "All Open Access"
+                        },
+                        {
+                            "$": "Gold"
+                        },
+                        {
+                            "$": "Green"
+                        }
+                    ]
+                }
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85054546411"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85054546411?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85054546411&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85054546411&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85054546411",
+                "dc:identifier": "SCOPUS_ID:85054546411",
+                "eid": "2-s2.0-85054546411",
+                "dc:title": "The importance of extrapulmonary vein triggers and atypical atrial flutter in atrial fibrillation recurrence after cryoablation: Insights from repeat ablation procedures",
+                "dc:creator": "Chang T.Y.",
+                "prism:publicationName": "Journal of Cardiovascular Electrophysiology",
+                "prism:issn": "10453873",
+                "prism:eIssn": "15408167",
+                "prism:volume": "30",
+                "prism:issueIdentifier": "1",
+                "prism:pageRange": "16-24",
+                "prism:coverDate": "2019-01-01",
+                "prism:coverDisplayDate": "January 2019",
+                "prism:doi": "10.1111/jce.13741",
+                "citedby-count": "10",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Yang-Ming University Taiwan",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "Veterans General Hospital-Taipei",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "30230088",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "23832",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85054137860"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85054137860?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85054137860&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85054137860&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "full-text",
+                        "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0167527318322897"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85054137860",
+                "dc:identifier": "SCOPUS_ID:85054137860",
+                "eid": "2-s2.0-85054137860",
+                "dc:title": "High-resolution mapping of pulmonary vein potentials improved the successful pulmonary vein isolation using small electrodes and inter-electrode spacing catheter",
+                "dc:creator": "Lin C.Y.",
+                "prism:publicationName": "International Journal of Cardiology",
+                "prism:issn": "01675273",
+                "prism:eIssn": "18741754",
+                "prism:volume": "272",
+                "prism:pageRange": "90-96",
+                "prism:coverDate": "2018-12-01",
+                "prism:coverDisplayDate": "1 December 2018",
+                "prism:doi": "10.1016/j.ijcard.2018.06.062",
+                "pii": "S0167527318322897",
+                "citedby-count": "11",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Yang-Ming University Taiwan",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "Veterans General Hospital-Taipei",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "30173923",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "23774",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85049126282"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85049126282?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85049126282&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85049126282&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85049126282",
+                "dc:identifier": "SCOPUS_ID:85049126282",
+                "eid": "2-s2.0-85049126282",
+                "dc:title": "Intermediate pause at daytime is associated with increased cardiovascular risk and mortality: An 8-year cohort study",
+                "dc:creator": "Liu C.M.",
+                "prism:publicationName": "Journal of the American Heart Association",
+                "prism:eIssn": "20479980",
+                "prism:volume": "7",
+                "prism:issueIdentifier": "12",
+                "prism:pageRange": null,
+                "prism:coverDate": "2018-06-01",
+                "prism:coverDisplayDate": "1 June 2018",
+                "prism:doi": "10.1161/JAHA.118.009034",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "Veterans General Hospital-Taipei",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "29895588",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "article-number": "e009034",
+                "source-id": "21100246515",
+                "openaccess": "1",
+                "openaccessFlag": true,
+                "freetoread": {
+                    "value": [
+                        {
+                            "$": "all"
+                        },
+                        {
+                            "$": "publisherfullgold"
+                        },
+                        {
+                            "$": "repository"
+                        },
+                        {
+                            "$": "repositoryvor"
+                        },
+                        {
+                            "$": "repositoryam"
+                        }
+                    ]
+                },
+                "freetoreadLabel": {
+                    "value": [
+                        {
+                            "$": "All Open Access"
+                        },
+                        {
+                            "$": "Gold"
+                        },
+                        {
+                            "$": "Green"
+                        }
+                    ]
+                }
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85042619760"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85042619760?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85042619760&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85042619760&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85042619760",
+                "dc:identifier": "SCOPUS_ID:85042619760",
+                "eid": "2-s2.0-85042619760",
+                "dc:title": "Cigarette smoking causes a worse long-term outcome in persistent atrial fibrillation following catheter ablation",
+                "dc:creator": "Cheng W.H.",
+                "prism:publicationName": "Journal of Cardiovascular Electrophysiology",
+                "prism:issn": "10453873",
+                "prism:eIssn": "15408167",
+                "prism:volume": "29",
+                "prism:issueIdentifier": "5",
+                "prism:pageRange": "699-706",
+                "prism:coverDate": "2018-05-01",
+                "prism:coverDisplayDate": "May 2018",
+                "prism:doi": "10.1111/jce.13451",
+                "citedby-count": "7",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "Veterans General Hospital-Taipei",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "29424013",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "23832",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85042169443"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85042169443?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85042169443&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85042169443&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "full-text",
+                        "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0167527317360278"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85042169443",
+                "dc:identifier": "SCOPUS_ID:85042169443",
+                "eid": "2-s2.0-85042169443",
+                "dc:title": "Vasovagal responses during cryoballoon pulmonary vein isolation in paroxysmal atrial fibrillation predict favorable mid-term outcomes",
+                "dc:creator": "Te A.L.D.",
+                "prism:publicationName": "International Journal of Cardiology",
+                "prism:issn": "01675273",
+                "prism:eIssn": "18741754",
+                "prism:volume": "258",
+                "prism:pageRange": "115-120",
+                "prism:coverDate": "2018-05-01",
+                "prism:coverDisplayDate": "1 May 2018",
+                "prism:doi": "10.1016/j.ijcard.2018.01.111",
+                "pii": "S0167527317360278",
+                "citedby-count": "8",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "St. Luke's Medical Center Quezon City",
+                        "affiliation-city": "Quezon City",
+                        "affiliation-country": "Philippines"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "Veterans General Hospital-Taipei",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "29467097",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "23774",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85034230057"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85034230057?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85034230057&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85034230057&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85034230057",
+                "dc:identifier": "SCOPUS_ID:85034230057",
+                "eid": "2-s2.0-85034230057",
+                "dc:title": "Novel electrophysiological criteria for septal ventricular outflow tract tachycardias requiring a sequential bilateral ablation",
+                "dc:creator": "Lin C.Y.",
+                "prism:publicationName": "Journal of Cardiovascular Electrophysiology",
+                "prism:issn": "10453873",
+                "prism:eIssn": "15408167",
+                "prism:volume": "29",
+                "prism:issueIdentifier": "2",
+                "prism:pageRange": "298-307",
+                "prism:coverDate": "2018-02-01",
+                "prism:coverDisplayDate": "February 2018",
+                "prism:doi": "10.1111/jce.13376",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Yang-Ming University Taiwan",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "Veterans General Hospital-Taipei",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "29071756",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "23832",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85034117093"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85034117093?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85034117093&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85034117093&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85034117093",
+                "dc:identifier": "SCOPUS_ID:85034117093",
+                "eid": "2-s2.0-85034117093",
+                "dc:title": "Predicting the Origin of Ventricular Arrhythmia Using Acoustic Cardiography",
+                "dc:creator": "Lin C.Y.",
+                "prism:publicationName": "Scientific Reports",
+                "prism:eIssn": "20452322",
+                "prism:volume": "7",
+                "prism:issueIdentifier": "1",
+                "prism:pageRange": null,
+                "prism:coverDate": "2017-12-01",
+                "prism:coverDisplayDate": "1 December 2017",
+                "prism:doi": "10.1038/s41598-017-15573-5",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Yang-Ming University Taiwan",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affilname": "Veterans General Hospital-Taipei",
+                        "affiliation-city": "Taipei",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "29138409",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "article-number": "15490",
+                "source-id": "21100200805",
+                "openaccess": "1",
+                "openaccessFlag": true,
+                "freetoread": {
+                    "value": [
+                        {
+                            "$": "all"
+                        },
+                        {
+                            "$": "publisherfullgold"
+                        },
+                        {
+                            "$": "repository"
+                        },
+                        {
+                            "$": "repositoryvor"
+                        }
+                    ]
+                },
+                "freetoreadLabel": {
+                    "value": [
+                        {
+                            "$": "All Open Access"
+                        },
+                        {
+                            "$": "Gold"
+                        },
+                        {
+                            "$": "Green"
+                        }
+                    ]
+                }
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85018985017"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85018985017?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85018985017&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85018985017&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85018985017",
+                "dc:identifier": "SCOPUS_ID:85018985017",
+                "eid": "2-s2.0-85018985017",
+                "dc:title": "Efficacy of postoperative prophylactic antibiotics in reducing permanent pacemaker infections",
+                "dc:creator": "Lee W.H.",
+                "prism:publicationName": "Clinical Cardiology",
+                "prism:issn": "01609289",
+                "prism:eIssn": "19328737",
+                "prism:volume": "40",
+                "prism:issueIdentifier": "8",
+                "prism:pageRange": "559-565",
+                "prism:coverDate": "2017-08-01",
+                "prism:coverDisplayDate": "August 2017",
+                "prism:doi": "10.1002/clc.22698",
+                "citedby-count": "8",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "National Cheng Kung University Hospital",
+                        "affiliation-city": "Tainan",
+                        "affiliation-country": "Taiwan"
+                    }
+                ],
+                "pubmed-id": "28444977",
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "23072",
+                "openaccess": "1",
+                "openaccessFlag": true,
+                "freetoread": {
+                    "value": [
+                        {
+                            "$": "all"
+                        },
+                        {
+                            "$": "publisherfree2read"
+                        },
+                        {
+                            "$": "repository"
+                        },
+                        {
+                            "$": "repositoryvor"
+                        }
+                    ]
+                },
+                "freetoreadLabel": {
+                    "value": [
+                        {
+                            "$": "All Open Access"
+                        },
+                        {
+                            "$": "Bronze"
+                        },
+                        {
+                            "$": "Green"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
