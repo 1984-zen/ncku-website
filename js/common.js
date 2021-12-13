@@ -1,3 +1,9 @@
+$(function() {
+    // 將 navigator 和 回首頁 logo 載入到 HTML
+    $(".header_container").load("header.html");
+    $("footer").last().load("footer.html");
+});
+
 $(window).scroll(function() {
     if ($(this).scrollTop() > 60)  {         /* 要滑動到選單的距離 */
         $('.header_container').addClass('navFixed');    /* 幫選單加上固定效果 */
