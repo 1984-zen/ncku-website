@@ -198,12 +198,14 @@ nav a
 .big_banner_container
 {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 0%);
     width: 100%;
     max-width: 400px;
-    padding: 0 20px;
+    height: fit-content;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
     .big_banner_container h1
@@ -241,6 +243,7 @@ nav a
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
+    margin-top: 10px;
 }
 
 .small_banner:nth-child(1)
@@ -1443,20 +1446,15 @@ footer
 
     .big_banner_container
     {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-100%, -50%);
-        width: 100%;
-        max-width: 540px;
-        padding-left: 4%;
-        padding-right: 0;
+        width: fit-content;
+        margin: auto auto auto 20%;
+        transform: translate(-23%, 0%);
     }
 
     .big_banner_container h1
     {
         color: white;
-        font-size: 50px;
+        font-size: 30px;
         margin-bottom: 5%;
         text-align: left;
     }
@@ -1464,7 +1462,7 @@ footer
     .big_banner_container p
     {
         color: white;
-        font-size: 20px;
+        font-size: 15px;
         margin-bottom: 5%;
         text-align: left;
     }
@@ -1479,21 +1477,29 @@ footer
     #small_banner_wrap
     {
         overflow: hidden;
+        margin: 0 auto;
+        max-width: 1380px;
+        width: 100%;
     }
-
+    /* 左邊的小 Banner */
     #small_banner_wrap > .small_banner
     {   
+        height: 480px;
         background-image: url(./images/small_banner_l_desktop_01.png);
         float: left;
-        width: 60%;
+        width: 48%;
+        max-width: 670px;
+        margin: 1%;
     }
-
+    /* 右邊的小 Banner */
     #small_banner_wrap > .small_banner ~ .small_banner
     {
         height: 480px;
         background-image: url(./images/small_banner_r_desktop_01.png);
         float: left;
-        width: 40%;
+        width: 48%;
+        max-width: 670px;
+        margin: 1%;
     }
 
     .small_banner_container
