@@ -4,6 +4,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Microsoft JhengHei', 'STHeiti', 'sans-serif';
+    font-weight: 400;
+    letter-spacing: .4px;
 }
 
 h3
@@ -161,6 +164,10 @@ nav a
     .mobile_menu a
     {   
         display: block;
+        font-size: 16px;
+        font-family: 'Noto Sans TC', 'Noto Serif TC', 'DFKai-SB', 'STKaiti', 'serif';
+        font-weight: 100;
+        line-height: 18px;
         padding: 10px 20px;
         border-bottom: 1px solid #f2f2f2;
     }
@@ -170,7 +177,18 @@ nav a
         background-color: #1637ec;
     }
 
-#big_banner
+#big_banner_bg_automated_recognition_echocardiography
+{
+    height: 480px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-color: black;
+    background-image: url(./images/big_banner_index_mobile_01.png);
+}
+
+#big_banner_bg_9b_interactive_board
 {   
     height: 480px;
     background-size: cover;
@@ -178,28 +196,36 @@ nav a
     background-position: center;
     position: relative;
     background-color: black;
+    background-image: url(./images/big_banner_board_mobile_01.png);
 }
 
-    .big_banner_index
-    {
-        background-image: url(./images/big_banner_index_mobile_01.png);
-    }
+#big_banner_bg_automated_recognition_ecg
+{
+    height: 480px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-color: black;
+    /* background-image: url(./images/big_banner_board_mobile_01.png); */
+}
 
-    .big_banner_solution
-    {
-        background-image: url(./images/big_banner_solution_mobile_01.png);
-    }
+#big_banner_bg_gene_stent
+{
+    height: 480px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-color: black;
+    /* background-image: url(./images/big_banner_board_mobile_01.png); */
+}
 
-    .big_banner_board
-    {
-        background-image: url(./images/big_banner_board_mobile_01.png);
-    }
-
-.big_banner_container
+.big_banner_text
 {
     position: absolute;
     width: 100%;
-    max-width: 400px;
+    max-width: 660px;
     height: fit-content;
     top: 0;
     bottom: 0;
@@ -208,26 +234,37 @@ nav a
     margin: auto;
 }
 
-    .big_banner_container h1
+    .big_banner_text h1
     {
-        color: white;
+        color: rgb(231, 231, 231);
         font-size: 30px;
         text-align: center;
         margin-bottom: 5%;
+        font-family: 'Noto Serif TC', 'DFKai-SB', 'STKaiti', 'serif';
+        font-weight: 700;
+        text-shadow: black 0.1em 0.1em 0.2em;
+        letter-spacing: .8px;
     }
 
-    .big_banner_container p
+    .big_banner_text p
     {
-        color: white;
-        font-size: 15px;
+        color: rgb(231, 231, 231);
+        font-size: 20px;
         text-align: center;
         margin-bottom: 5%;
+        font-family: 'Noto Serif TC', 'DFKai-SB', 'STKaiti', 'serif';
+        font-weight: 700;
+        text-shadow: black 0.1em 0.1em 0.2em;
+        letter-spacing: .5px;
     }
 
-    .big_banner_container .button
+    .big_banner_text .button
     {
         width: 100%;
         text-align: center;
+        font-family: 'Noto Serif TC', 'DFKai-SB', 'STKaiti', 'serif';
+        font-weight: 400;
+        letter-spacing: .5px;
     }
 
 #small_banner_wrap
@@ -275,6 +312,8 @@ nav a
 {
     color: white;
     font-size: 30px;
+    font-family: 'Noto Serif TC', 'DFKai-SB', 'STKaiti', 'serif';
+    font-weight: 700;
     text-align: center;
     margin-bottom: 5%;
 }
@@ -282,7 +321,9 @@ nav a
 .small_banner_container p
 {
     color: white;
-    font-size: 15px;
+    font-size: 20px;
+    font-family: 'Noto Serif TC', 'DFKai-SB', 'STKaiti', 'serif';
+    font-weight: 100;
     text-align: center;
     margin-bottom: 5%;
 }
@@ -293,15 +334,16 @@ footer
     width: 100%;
     margin: 0 auto;
     background-color: white;
-    padding: 0 5%;
+    padding: 8px 20px;
 }
 
     footer h3
     {
         text-align: center;
-        font-size: 15px;
-        line-height: 30px;
-        font-weight: normal;
+        font-size: 16px;
+        font-family: 'Noto Serif TC', 'DFKai-SB', 'STKaiti', 'serif';
+        font-weight: 100;
+        line-height: 20px;
     }
 
 .background_cool_gray
@@ -621,12 +663,12 @@ footer
     min-width: 300px;
     margin: 0 auto 5%;
     box-shadow: 3px 6px 10px 1px #919191;
-    padding-bottom: 2%;
+    padding-bottom: 10px;
 }
 
     .our_research_card .small_banner_thumbnaill
     {
-        padding: 2%;
+        padding: 10px;
     }
 
     .our_research_card .small_banner_thumbnaill img
@@ -1399,7 +1441,10 @@ footer
     .desktop_menu a
     {
         display: inline-block;
-        font-size: 20px;
+        font-size: 16px;
+        font-family: 'Noto Serif TC', 'DFKai-SB', 'STKaiti', 'serif';
+        font-weight: 100;
+        line-height: 18px;
         height: auto;
         border-bottom: none;
         color: black;
@@ -1423,55 +1468,181 @@ footer
         display: block;
         margin-right: 3%;
     }
-
-    #big_banner
-    {   
+    
+    #big_banner_bg_automated_recognition_echocardiography
+    {  
         height: 548px;
+        background-image: url(./images/big_banner_index_desktop_01.png);
     }
 
-        .big_banner_index
-        {
-            background-image: url(./images/big_banner_index_desktop_01.png);
-        }
+    #big_banner_bg_9b_interactive_board
+    {
+        height: 548px;
+        background-image: url(./images/big_banner_board_desktop_01.png);
+    }
 
-        .big_banner_solution
-        {
-            background-image: url(./images/big_banner_solution_desktop_01.png);
-        }
+    #big_banner_bg_automated_recognition_ecg
+    {
+        height: 548px;
+        background-image: url(./images/big_banner_automated_recognition_ecg_desktop.png);
+    }
 
-        .big_banner_board
-        {
-            background-image: url(./images/big_banner_board_desktop_01.png);
-        }
+    #big_banner_bg_gene_stent
+    {
+        height: 548px;
+        background-image: url(./images/big_banner_genestent_desktop.png);
+    }
 
-    .big_banner_container
+    .big_banner_text
     {
         width: fit-content;
+        max-width: 660px;
         margin: auto auto auto 20%;
         transform: translate(-23%, 0%);
     }
 
-    .big_banner_container h1
+    .big_banner_text h1
     {
-        color: white;
+        color: rgb(231, 231, 231);
         font-size: 30px;
         margin-bottom: 5%;
         text-align: left;
+        font-family: 'Noto Serif TC', 'DFKai-SB', 'STKaiti', 'serif';
+        font-weight: 700;
+        text-shadow: none;
     }
 
-    .big_banner_container p
+        #big_banner_bg_automated_recognition_echocardiography.mySlides .big_banner_text h1:nth-of-type(1){
+            margin-bottom: 8px;
+        }
+        #big_banner_bg_automated_recognition_echocardiography.mySlides .big_banner_text h1:nth-of-type(2){
+            padding-left: 8px;
+            line-height: 30px;
+        }
+
+        #big_banner_bg_9b_interactive_board.mySlides .big_banner_text h1:nth-of-type(1){
+            margin-bottom: 8px;
+        }
+        #big_banner_bg_9b_interactive_board.mySlides .big_banner_text h1:nth-of-type(2){
+            padding-left: 8px;
+            margin-bottom: 4px;
+            line-height: 30px;
+        }
+        #big_banner_bg_9b_interactive_board.mySlides .big_banner_text h1:nth-of-type(3){
+            padding-left: 8px;
+            line-height: 30px;
+        }
+
+        #big_banner_bg_automated_recognition_ecg.mySlides .big_banner_text h1:nth-of-type(1){
+            margin-bottom: 8px;
+            text-shadow: black 0.1em 0.1em 0.2em;
+        }
+        #big_banner_bg_automated_recognition_ecg.mySlides .big_banner_text h1:nth-of-type(2){
+            padding-left: 8px;
+            margin-bottom: 4px;
+            text-shadow: black 0.1em 0.1em 0.2em;
+            line-height: 30px;
+        }
+        #big_banner_bg_automated_recognition_ecg.mySlides .big_banner_text h1:nth-of-type(3){
+            padding-left: 8px;
+            text-shadow: black 0.1em 0.1em 0.2em;
+            line-height: 30px;
+        }
+
+        #big_banner_bg_gene_stent.mySlides .big_banner_text h1:nth-of-type(1){
+            margin-bottom: 8px;
+            color:rgb(32, 32, 32);
+        }
+        #big_banner_bg_gene_stent.mySlides .big_banner_text h1:nth-of-type(2){
+            padding-left: 8px;
+            margin-bottom: 4px;
+            color:rgb(32, 32, 32);
+            line-height: 30px;
+        }
+        #big_banner_bg_gene_stent.mySlides .big_banner_text h1:nth-of-type(3){
+            padding-left: 8px;
+            margin-bottom: 4px;
+            color:rgb(32, 32, 32);
+            line-height: 30px;
+        }
+        #big_banner_bg_gene_stent.mySlides .big_banner_text h1:nth-of-type(4){
+            padding-left: 8px;
+            color:rgb(32, 32, 32);
+            line-height: 30px;
+        }
+
+    .big_banner_text p
     {
-        color: white;
-        font-size: 15px;
+        color: rgb(231, 231, 231);
+        font-size: 20px;
         margin-bottom: 5%;
         text-align: left;
+        font-family: 'Noto Serif TC', 'DFKai-SB', 'STKaiti', 'serif';
+        font-weight: 100;
+        text-shadow: none;
     }
 
-    .big_banner_container .button
+        #big_banner_bg_automated_recognition_echocardiography.mySlides .big_banner_text p:nth-of-type(1){
+            margin: 0;
+        }
+        #big_banner_bg_automated_recognition_echocardiography.mySlides .big_banner_text p:nth-of-type(2){
+            margin: 0;
+            padding-left: 8px;
+        }
+        #big_banner_bg_automated_recognition_echocardiography.mySlides .big_banner_text p:nth-of-type(3){
+            margin: 0;
+            padding-left: 8px;
+        }
+
+        #big_banner_bg_9b_interactive_board.mySlides .big_banner_text p:nth-of-type(1){
+            margin: 0;
+        }
+        #big_banner_bg_9b_interactive_board.mySlides .big_banner_text p:nth-of-type(2){
+            margin: 0;
+            padding-left: 8px;
+        }
+        #big_banner_bg_9b_interactive_board.mySlides .big_banner_text p:nth-of-type(3){
+            margin: 0;
+            padding-left: 8px;
+        }
+
+        #big_banner_bg_automated_recognition_ecg.mySlides .big_banner_text p:nth-of-type(1){
+            margin: 0;
+            text-shadow: black 0.1em 0.1em 0.2em;
+        }
+        #big_banner_bg_automated_recognition_ecg.mySlides .big_banner_text p:nth-of-type(2){
+            margin: 0;
+            padding-left: 8px;
+            text-shadow: black 0.1em 0.1em 0.2em;
+        }
+        #big_banner_bg_automated_recognition_ecg.mySlides .big_banner_text p:nth-of-type(3){
+            margin: 0;
+            padding-left: 8px;
+            text-shadow: black 0.1em 0.1em 0.2em;
+        }
+
+        #big_banner_bg_gene_stent.mySlides .big_banner_text p:nth-of-type(1){
+            margin: 0;
+            color: rgb(32, 32, 32);
+        }
+        #big_banner_bg_gene_stent.mySlides .big_banner_text p:nth-of-type(2){
+            margin: 0;
+            color: rgb(32, 32, 32);
+            padding-left: 8px;
+        }
+        #big_banner_bg_gene_stent.mySlides .big_banner_text p:nth-of-type(3){
+            margin: 0;
+            color: rgb(32, 32, 32);
+            padding-left: 8px;
+        }
+
+    .big_banner_text .button
     {
         margin-top: 4%;
         width: 100%;
         text-align: left;
+        font-family: 'Noto Serif TC', 'DFKai-SB', 'STKaiti', 'serif';
+        font-weight: 100;
     }
 
     #small_banner_wrap
@@ -1505,16 +1676,6 @@ footer
     .small_banner_container
     {
         max-width: 600px;
-    }
-
-    .small_banner_container h1
-    {
-        font-size: 30px;
-    }
-
-    .small_banner_container p
-    {
-        font-size: 15px;
     }
 
     .article_container_hidden
@@ -1618,7 +1779,7 @@ footer
         .mission_vision_wrap .our_mission
         {
             padding-left: 10%;
-            padding-right: 20%;
+            padding-right: 5%;
         }
 
             .our_mission h3
@@ -1863,11 +2024,89 @@ footer
         font-size: 16px;
     }
 
-    footer h3
-    {
-        font-size: 16px;
-        line-height: 40px;
+    /* Slides start */
+    .mySlides {
+        display: none
     }
+
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active,
+    .dot:hover {
+        background-color: #717171;
+    }
+
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+        from {
+            opacity: .4
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    @media only screen and (max-width: 300px) {
+
+        .prev,
+        .next,
+        .text {
+            font-size: 11px
+        }
+    }
+    /* Slids end */
 }
 
 /* 以下是平板 */
