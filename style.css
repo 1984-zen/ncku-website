@@ -576,19 +576,19 @@ footer
     {
         font-size: 26px;
         color: black;
-        display: inline-block;
-        margin: 0;
+        margin-bottom: 20px;
+        display: block;
+        text-align: center;
+        font-family: 'Noto Serif TC', 'DFKai-SB', 'STKaiti', 'serif';
+        font-weight: 700;
+        letter-spacing: .8px;
     }
 
     .about_us_text_container > p
     {
         color: black;
-        font-size: 15;
-    }
-
-    .about_us_text_container img
-    {
-        vertical-align: text-top;
+        font-size: 16px;
+        text-align: center;
     }
 
 .member_wrap
@@ -611,17 +611,38 @@ footer
         width: 80%;
     }
 
+        .circle::before
+        {
+            display: inline-block;
+            content: '';
+            background-image: url(./images/circle.jpg);
+            background-position: center center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 20px;
+            height: 20px;
+            margin-right: 3px;
+        }
+
         .our_mission h3
         {
             display: inline-block;
             font-size: 24px;
             color: black;
-            margin-bottom: 5%;
+            margin-bottom: 20px;
+            white-space:nowrap;
+            font-family: 'Noto Serif TC', 'DFKai-SB', 'STKaiti', 'serif';
+            font-weight: 700;
+            letter-spacing: .8px;
         }
 
-        .our_mission p
+        .our_mission ol{
+            padding-left: 51px;
+        }
+
+        .our_mission ol li
         {
-            font-size: 15px;
+            font-size: 16px;
             color: black;
         }
 
@@ -636,12 +657,20 @@ footer
             display: inline-block;
             font-size: 24px;
             color: black;
-            margin-bottom: 5%;
+            margin-bottom: 20px;
+            font-family: 'Noto Serif TC', 'DFKai-SB', 'STKaiti', 'serif';
+            font-weight: 700;
+            letter-spacing: .8px;
+            white-space:nowrap;
         }
 
-        .our_vision p
+        .our_vision .our_vision_description_container{
+            padding-left: 40px;
+        }
+
+        .our_vision .our_vision_description_container p
         {
-            font-size: 15px;
+            font-size: 16px;
             color: black;
         }
 
@@ -1755,18 +1784,8 @@ footer
         display: inline-block;
     }
 
-    .about_us_text_container h1
-    {
-        font-size: 32px;
-        display: inline-block;
-        padding-left: 2%;
-        margin: 0;
-    }
-
-    .about_us_text_container > p
-    {
-        padding-left: 24%;
-        font-size: 16;
+    .about_us_text_container > p{
+        text-align: center;
     }
 
     .mission_vision_wrap
@@ -1776,38 +1795,14 @@ footer
         margin-bottom: 0;
     }
 
-        .mission_vision_wrap .our_mission
-        {
-            padding-left: 10%;
-            padding-right: 5%;
-        }
-
             .our_mission h3
             {
                 font-size: 30px;
-                margin-bottom: 0;
             }
-
-            .our_mission p
-            {
-                font-size: 16px;
-            }
-
-        .mission_vision_wrap .our_vision
-        {
-            padding-left: 20%;
-            padding-right: 10%;
-        }
 
             .our_vision h3
             {
                 font-size: 30px;
-                margin-bottom: 0;
-            }
-
-            .our_vision p
-            {
-                font-size: 16px;
             }
 
     .our_research_card
