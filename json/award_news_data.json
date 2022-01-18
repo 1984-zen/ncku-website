@@ -1,3 +1,7 @@
 [
-    {"id": 1, "year": "2021", "display": "show", "title": "賀! 劉秉彥 醫師 2021 年台灣健康照護品質管理競賽-機構組-病人流【銀獎】", "date": "2021.10.30", "link": "./news_001.html"}
+    {"year": "2021", "display": "show", "title": "賀! 劉秉彥 醫師 2021 年台灣健康照護品質管理競賽-機構組-病人流【銀獎】", "date": "2021.10.30", "link": "./news_001.html"},
+    {"year": "2021", "display": "show", "title": "賀! 團隊以「次世代塗藥血管支架發生支架內再狹窄之基因風險預測模式」榮獲 第18屆國家新創獎", "date": "2021.12.30", "link": "./news_002.html"},
+    {"year": "2021", "display": "show", "title": "賀! 黃睦翔 醫師榮獲姜必寧獎", "date": "2021.12.18", "link": "./news_003.html"},
+    {"year": "2021", "display": "show", "title": "賀! 心臟血管科四位醫師榮升教授", "date": "2021.12.01", "link": "./news_004.html"},
+    {"year": "2021", "display": "show", "title": "賀! 劉秉彥 醫師獲選 2021 年優秀論文獎", "date": "2021.12.23", "link": "./news_005.html"}
 ]

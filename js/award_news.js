@@ -18,7 +18,10 @@
     var newsData = await newsDataPromise
     var newsData = await newsData.json()
     // 處理完後 newsData 就是 json 了
-    var tempData = newsData
+    var tempData = await newsData.sort(function(a, b) {
+        // 排序
+        return new Date(b.date.replace(/\./g, "-")) - new Date(a.date.replace(/\./g, "-"));
+    })
 
     const pagerCount = 5; //每頁顯示幾筆
     var currentIndex = 1; //目前在第幾頁
