@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>成大醫院-解決方案</title>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick-theme.css"/>
         <link rel="stylesheet" href="./style.css" />
     </head>
 
@@ -15,8 +17,8 @@
             <header>
                 <div class="header_container"></div>
                 <div id="solutions_slides_container">
-    
-                    <div class="mySlides fade" id="big_banner_bg_automated_recognition_echocardiography" data-href="automated_recognition_echocardiography.html">
+
+                    <div id="big_banner_bg_automated_recognition_echocardiography" data-href="automated_recognition_echocardiography.html">
                         <div class="big_banner_text">
                             <h1>初學超音波者的困境1:</h1>
                             <h1>病患的心臟局部收縮有問題嗎？</h1>
@@ -27,7 +29,7 @@
                         </div>
                     </div>
     
-                    <div class="mySlides fade" id="big_banner_bg_9b_interactive_board" data-href="9b_interaction_board.html">
+                    <div id="big_banner_bg_9b_interaction_board" data-href="9b_interaction_board.html">
                         <div class="big_banner_text">
                             <h1>心臟科病房查房與排班的困境2：</h1>
                             <h1>這麼多的病患我怎麼找到團隊治療</h1>
@@ -38,7 +40,7 @@
                         </div>
                     </div>
     
-                    <div class="mySlides fade" id="big_banner_bg_automated_recognition_ecg" data-href="automated_recognition_ecg.html">
+                    <div id="big_banner_bg_automated_recognition_ecg" data-href="automated_recognition_ecg.html">
                         <div class="big_banner_text">
                             <h1>心臟科照護病患判讀心電圖的困境3：</h1>
                             <h1>病患心電圖資料眾多，是否有AI方案</h1>
@@ -49,7 +51,7 @@
                         </div>
                     </div>
     
-                    <div class="mySlides fade" id="big_banner_bg_gene_stent" data-href="gene_stent.html">
+                    <div id="big_banner_bg_gene_stent" data-href="gene_stent.html">
                         <div class="big_banner_text">
                             <h1>臨床照護困境4：</h1>
                             <h1>每個病患都是高危險病患嗎？
@@ -63,24 +65,15 @@
     
                 </div>
 
-                <a class="prev">&#10094;</a>
-                <a class="next">&#10095;</a>
-    
-                <br>
-    
-                <div style="text-align:center">
-                    <span class="dot" data-dotNum="1"></span>
-                    <span class="dot" data-dotNum="2"></span>
-                    <span class="dot" data-dotNum="3"></span>
-                    <span class="dot" data-dotNum="4"></span>
-                </div>
             </header>
             <main></main>
             <footer></footer>
         </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js" type="text/javascript" ></script>
     <script src="js/common.js" charset="UTF-8" type="text/javascript"></script>
-    <script src="js/solutions_slides.js" charset="UTF-8" type="text/javascript"></script>
+    <script src="./slick-1.8.1/slick/slick.min.js" type="text/javascript"></script>
+    <script src="js/solutions_slick_load_html_content.js" charset="UTF-8" type="text/javascript"></script>
     </body>
 </html>

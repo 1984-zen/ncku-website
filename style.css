@@ -177,7 +177,8 @@ nav a
         background-color: #1637ec;
     }
 
-#big_banner_bg_automated_recognition_echocardiography
+#big_banner_bg_automated_recognition_echocardiography,
+.slick-slide[data-href="automated_recognition_echocardiography.html"]
 {
     height: 480px;
     background-size: cover;
@@ -188,7 +189,8 @@ nav a
     background-image: url(./images/big_banner_index_mobile_01.png);
 }
 
-#big_banner_bg_9b_interactive_board
+#big_banner_bg_9b_interaction_board,
+.slick-slide[data-href="9b_interaction_board.html"]
 {   
     height: 480px;
     background-size: cover;
@@ -199,7 +201,8 @@ nav a
     background-image: url(./images/big_banner_board_mobile_01.png);
 }
 
-#big_banner_bg_automated_recognition_ecg
+#big_banner_bg_automated_recognition_ecg,
+.slick-slide[data-href="automated_recognition_ecg.html"]
 {
     height: 480px;
     background-size: cover;
@@ -210,7 +213,8 @@ nav a
     /* background-image: url(./images/big_banner_board_mobile_01.png); */
 }
 
-#big_banner_bg_gene_stent
+#big_banner_bg_gene_stent,
+.slick-slide[data-href="gene_stent.html"]
 {
     height: 480px;
     background-size: cover;
@@ -232,19 +236,71 @@ nav a
     left: 0;
     right: 0;
     margin: auto;
+    padding: 0 35px;
 }
 
-    .big_banner_text h1
-    {
-        color: rgb(231, 231, 231);
-        font-size: 30px;
-        text-align: center;
-        margin-bottom: 5%;
-        font-family: 'Noto Serif TC', 'DFKai-SB', 'STKaiti', 'serif';
-        font-weight: 700;
-        text-shadow: black 0.1em 0.1em 0.2em;
-        letter-spacing: .8px;
-    }
+.big_banner_text h1
+{
+    color: rgb(231, 231, 231);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: 'Noto Serif TC', 'DFKai-SB', 'STKaiti', 'serif';
+    font-weight: 700;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    letter-spacing: .8px;
+}
+/* 專門微調整 solutions.html 的 big banner 文字專用的 */
+.slick-slide[data-href="automated_recognition_echocardiography.html"] .big_banner_text h1:nth-of-type(1){
+    margin-bottom: 8px;
+}
+.slick-slide[data-href="automated_recognition_echocardiography.html"] .big_banner_text h1:nth-of-type(2){
+    line-height: 30px;
+}
+
+.slick-slide[data-href="9b_interaction_board.html"] .big_banner_text h1:nth-of-type(1){
+    margin-bottom: 8px;
+}
+.slick-slide[data-href="9b_interaction_board.html"] .big_banner_text h1:nth-of-type(2){
+    margin-bottom: 4px;
+    line-height: 30px;
+}
+.slick-slide[data-href="9b_interaction_board.html"] .big_banner_text h1:nth-of-type(3){
+    line-height: 30px;
+}
+
+.slick-slide[data-href="automated_recognition_ecg.html"] .big_banner_text h1:nth-of-type(1){
+    margin-bottom: 8px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+.slick-slide[data-href="automated_recognition_ecg.html"] .big_banner_text h1:nth-of-type(2){
+    margin-bottom: 4px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    line-height: 30px;
+}
+.slick-slide[data-href="automated_recognition_ecg.html"] .big_banner_text h1:nth-of-type(3){
+    text-shadow: black 0.1em 0.1em 0.2em;
+    line-height: 30px;
+}
+
+.slick-slide[data-href="gene_stent.html"] .big_banner_text h1:nth-of-type(1){
+    margin-bottom: 8px;
+    color:rgb(32, 32, 32);
+}
+.slick-slide[data-href="gene_stent.html"] .big_banner_text h1:nth-of-type(2){
+    margin-bottom: 4px;
+    color:rgb(32, 32, 32);
+    line-height: 30px;
+}
+.slick-slide[data-href="gene_stent.html"] .big_banner_text h1:nth-of-type(3){
+    margin-bottom: 4px;
+    color:rgb(32, 32, 32);
+    line-height: 30px;
+}
+.slick-slide[data-href="gene_stent.html"] .big_banner_text h1:nth-of-type(4){
+    color:rgb(32, 32, 32);
+    line-height: 30px;
+}
 
     .big_banner_text p
     {
@@ -256,6 +312,50 @@ nav a
         font-weight: 700;
         text-shadow: black 0.1em 0.1em 0.2em;
         letter-spacing: .5px;
+    }
+    /* 專門微調整 solutions.html 的 big banner 文字專用的 */
+    .slick-slide[data-href="automated_recognition_echocardiography.html"] .big_banner_text p:nth-of-type(1){
+        margin: 0;
+    }
+    .slick-slide[data-href="automated_recognition_echocardiography.html"] .big_banner_text p:nth-of-type(2){
+        margin: 0;
+    }
+
+    .slick-slide[data-href="9b_interaction_board.html"] .big_banner_text p:nth-of-type(1){
+        margin: 0;
+    }
+    .slick-slide[data-href="9b_interaction_board.html"] .big_banner_text p:nth-of-type(2){
+        margin: 0;
+    }
+    .slick-slide[data-href="9b_interaction_board.html"] .big_banner_text p:nth-of-type(3){
+        margin: 0;
+        padding-left: 8px;
+    }
+
+    .slick-slide[data-href="automated_recognition_ecg.html"] .big_banner_text p:nth-of-type(1){
+        margin: 0;
+        text-shadow: black 0.1em 0.1em 0.2em;
+    }
+    .slick-slide[data-href="automated_recognition_ecg.html"] .big_banner_text p:nth-of-type(2){
+        margin: 0;
+        text-shadow: black 0.1em 0.1em 0.2em;
+    }
+    .slick-slide[data-href="automated_recognition_ecg.html"] .big_banner_text p:nth-of-type(3){
+        margin: 0;
+        text-shadow: black 0.1em 0.1em 0.2em;
+    }
+
+    .slick-slide[data-href="gene_stent.html"] .big_banner_text p:nth-of-type(1){
+        margin: 0;
+        color: rgb(32, 32, 32);
+    }
+    .slick-slide[data-href="gene_stent.html"] .big_banner_text p:nth-of-type(2){
+        margin: 0;
+        color: rgb(32, 32, 32);
+    }
+    .slick-slide[data-href="gene_stent.html"] .big_banner_text p:nth-of-type(3){
+        margin: 0;
+        color: rgb(32, 32, 32);
     }
 
     .big_banner_text .button
@@ -299,13 +399,16 @@ nav a
 .small_banner_container
 {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 0%);
     width: 100%;
-    max-width: 400px;
+    max-width: 660px;
+    height: fit-content;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
     text-align: center;
-    padding: 0 20px;
+    padding: 0 35px;
 }
 
 .small_banner_container h1
@@ -1515,27 +1618,27 @@ footer
         display: block;
         margin-right: 3%;
     }
-    
-    #big_banner_bg_automated_recognition_echocardiography
-    {  
+
+    #big_banner_bg_automated_recognition_echocardiography,
+    .slick-slide[data-href="automated_recognition_echocardiography.html"]{
         height: 548px;
         background-image: url(./images/big_banner_index_desktop_01.png);
     }
 
-    #big_banner_bg_9b_interactive_board
-    {
+    #big_banner_bg_9b_interaction_board,
+    .slick-slide[data-href="9b_interaction_board.html"]{
         height: 548px;
         background-image: url(./images/big_banner_board_desktop_01.png);
     }
 
-    #big_banner_bg_automated_recognition_ecg
-    {
+    #big_banner_bg_automated_recognition_ecg,
+    .slick-slide[data-href="automated_recognition_ecg.html"]{
         height: 548px;
         background-image: url(./images/big_banner_automated_recognition_ecg_desktop.png);
     }
 
-    #big_banner_bg_gene_stent
-    {
+    #big_banner_bg_gene_stent,
+    .slick-slide[data-href="gene_stent.html"]{
         height: 548px;
         background-image: url(./images/big_banner_genestent_desktop.png);
     }
@@ -1546,6 +1649,7 @@ footer
         max-width: 660px;
         margin: auto auto auto 20%;
         transform: translate(-23%, 0%);
+        padding: 0;
     }
 
     .big_banner_text h1
@@ -1558,128 +1662,72 @@ footer
         font-weight: 700;
         text-shadow: none;
     }
-
-        #big_banner_bg_automated_recognition_echocardiography.mySlides .big_banner_text h1:nth-of-type(1){
-            margin-bottom: 8px;
-        }
-        #big_banner_bg_automated_recognition_echocardiography.mySlides .big_banner_text h1:nth-of-type(2){
-            padding-left: 8px;
-            line-height: 30px;
-        }
-
-        #big_banner_bg_9b_interactive_board.mySlides .big_banner_text h1:nth-of-type(1){
-            margin-bottom: 8px;
-        }
-        #big_banner_bg_9b_interactive_board.mySlides .big_banner_text h1:nth-of-type(2){
-            padding-left: 8px;
-            margin-bottom: 4px;
-            line-height: 30px;
-        }
-        #big_banner_bg_9b_interactive_board.mySlides .big_banner_text h1:nth-of-type(3){
-            padding-left: 8px;
-            line-height: 30px;
-        }
-
-        #big_banner_bg_automated_recognition_ecg.mySlides .big_banner_text h1:nth-of-type(1){
-            margin-bottom: 8px;
-            text-shadow: black 0.1em 0.1em 0.2em;
-        }
-        #big_banner_bg_automated_recognition_ecg.mySlides .big_banner_text h1:nth-of-type(2){
-            padding-left: 8px;
-            margin-bottom: 4px;
-            text-shadow: black 0.1em 0.1em 0.2em;
-            line-height: 30px;
-        }
-        #big_banner_bg_automated_recognition_ecg.mySlides .big_banner_text h1:nth-of-type(3){
-            padding-left: 8px;
-            text-shadow: black 0.1em 0.1em 0.2em;
-            line-height: 30px;
-        }
-
-        #big_banner_bg_gene_stent.mySlides .big_banner_text h1:nth-of-type(1){
-            margin-bottom: 8px;
-            color:rgb(32, 32, 32);
-        }
-        #big_banner_bg_gene_stent.mySlides .big_banner_text h1:nth-of-type(2){
-            padding-left: 8px;
-            margin-bottom: 4px;
-            color:rgb(32, 32, 32);
-            line-height: 30px;
-        }
-        #big_banner_bg_gene_stent.mySlides .big_banner_text h1:nth-of-type(3){
-            padding-left: 8px;
-            margin-bottom: 4px;
-            color:rgb(32, 32, 32);
-            line-height: 30px;
-        }
-        #big_banner_bg_gene_stent.mySlides .big_banner_text h1:nth-of-type(4){
-            padding-left: 8px;
-            color:rgb(32, 32, 32);
-            line-height: 30px;
-        }
-
-    .big_banner_text p
-    {
-        color: rgb(231, 231, 231);
-        font-size: 20px;
-        margin-bottom: 5%;
-        text-align: left;
-        font-family: 'Noto Serif TC', 'DFKai-SB', 'STKaiti', 'serif';
-        font-weight: 100;
-        text-shadow: none;
+    /* 專門微調整 solutions.html 的 big banner 文字專用的 */
+    .slick-slide[data-href="automated_recognition_echocardiography.html"] .big_banner_text h1:nth-of-type(2){
+        padding-left: 8px;
     }
 
-        #big_banner_bg_automated_recognition_echocardiography.mySlides .big_banner_text p:nth-of-type(1){
-            margin: 0;
+    .slick-slide[data-href="9b_interaction_board.html"] .big_banner_text h1:nth-of-type(2){
+        padding-left: 8px;
+    }
+    .slick-slide[data-href="9b_interaction_board.html"] .big_banner_text h1:nth-of-type(3){
+        padding-left: 8px;
+    }
+
+    .slick-slide[data-href="automated_recognition_ecg.html"] .big_banner_text h1:nth-of-type(2){
+        padding-left: 8px;
+    }
+    .slick-slide[data-href="automated_recognition_ecg.html"] .big_banner_text h1:nth-of-type(3){
+        padding-left: 8px;
+    }
+
+    .slick-slide[data-href="gene_stent.html"] .big_banner_text h1:nth-of-type(2){
+        padding-left: 8px;
+    }
+    .slick-slide[data-href="gene_stent.html"] .big_banner_text h1:nth-of-type(3){
+        padding-left: 8px;
+    }
+    .slick-slide[data-href="gene_stent.html"] .big_banner_text h1:nth-of-type(4){
+        padding-left: 8px;
+    }
+
+        .big_banner_text p
+        {
+            color: rgb(231, 231, 231);
+            font-size: 20px;
+            margin-bottom: 5%;
+            text-align: left;
+            font-family: 'Noto Serif TC', 'DFKai-SB', 'STKaiti', 'serif';
+            font-weight: 100;
+            text-shadow: none;
         }
-        #big_banner_bg_automated_recognition_echocardiography.mySlides .big_banner_text p:nth-of-type(2){
-            margin: 0;
+        /* 專門微調整 solutions.html 的 big banner 文字專用的 */
+        .slick-slide[data-href="automated_recognition_echocardiography.html"] .big_banner_text p:nth-of-type(2){
             padding-left: 8px;
         }
-        #big_banner_bg_automated_recognition_echocardiography.mySlides .big_banner_text p:nth-of-type(3){
+        .slick-slide[data-href="automated_recognition_echocardiography.html"] .big_banner_text p:nth-of-type(3){
             margin: 0;
             padding-left: 8px;
         }
 
-        #big_banner_bg_9b_interactive_board.mySlides .big_banner_text p:nth-of-type(1){
-            margin: 0;
-        }
-        #big_banner_bg_9b_interactive_board.mySlides .big_banner_text p:nth-of-type(2){
-            margin: 0;
+        .slick-slide[data-href="9b_interaction_board.html"] .big_banner_text p:nth-of-type(2){
             padding-left: 8px;
         }
-        #big_banner_bg_9b_interactive_board.mySlides .big_banner_text p:nth-of-type(3){
-            margin: 0;
+        .slick-slide[data-href="9b_interaction_board.html"] .big_banner_text p:nth-of-type(3){
             padding-left: 8px;
         }
 
-        #big_banner_bg_automated_recognition_ecg.mySlides .big_banner_text p:nth-of-type(1){
-            margin: 0;
-            text-shadow: black 0.1em 0.1em 0.2em;
-        }
-        #big_banner_bg_automated_recognition_ecg.mySlides .big_banner_text p:nth-of-type(2){
-            margin: 0;
+        .slick-slide[data-href="automated_recognition_ecg.html"] .big_banner_text p:nth-of-type(2){
             padding-left: 8px;
-            text-shadow: black 0.1em 0.1em 0.2em;
         }
-        #big_banner_bg_automated_recognition_ecg.mySlides .big_banner_text p:nth-of-type(3){
-            margin: 0;
+        .slick-slide[data-href="automated_recognition_ecg.html"] .big_banner_text p:nth-of-type(3){
             padding-left: 8px;
-            text-shadow: black 0.1em 0.1em 0.2em;
         }
 
-        #big_banner_bg_gene_stent.mySlides .big_banner_text p:nth-of-type(1){
-            margin: 0;
-            color: rgb(32, 32, 32);
-        }
-        #big_banner_bg_gene_stent.mySlides .big_banner_text p:nth-of-type(2){
-            margin: 0;
-            color: rgb(32, 32, 32);
+        .slick-slide[data-href="gene_stent.html"] .big_banner_text p:nth-of-type(2){
             padding-left: 8px;
         }
-        #big_banner_bg_gene_stent.mySlides .big_banner_text p:nth-of-type(3){
-            margin: 0;
-            color: rgb(32, 32, 32);
+        .slick-slide[data-href="gene_stent.html"] .big_banner_text p:nth-of-type(3){
             padding-left: 8px;
         }
 
@@ -2048,89 +2096,6 @@ footer
         font-size: 16px;
     }
 
-    /* Slides start */
-    .mySlides {
-        display: none
-    }
-
-    .prev,
-    .next {
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        width: auto;
-        padding: 16px;
-        margin-top: -22px;
-        color: white;
-        font-weight: bold;
-        font-size: 18px;
-        transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
-    }
-
-    .next {
-        right: 0;
-        border-radius: 3px 0 0 3px;
-    }
-
-    .prev:hover,
-    .next:hover {
-        background-color: rgba(0, 0, 0, 0.8);
-    }
-
-    .dot {
-        cursor: pointer;
-        height: 15px;
-        width: 15px;
-        margin: 0 2px;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
-    }
-
-    .active,
-    .dot:hover {
-        background-color: #717171;
-    }
-
-    .fade {
-        -webkit-animation-name: fade;
-        -webkit-animation-duration: 1.5s;
-        animation-name: fade;
-        animation-duration: 1.5s;
-    }
-
-    @-webkit-keyframes fade {
-        from {
-            opacity: .4
-        }
-
-        to {
-            opacity: 1
-        }
-    }
-
-    @keyframes fade {
-        from {
-            opacity: .4
-        }
-
-        to {
-            opacity: 1
-        }
-    }
-
-    @media only screen and (max-width: 300px) {
-
-        .prev,
-        .next,
-        .text {
-            font-size: 11px
-        }
-    }
-    /* Slids end */
 }
 
 /* 以下是平板 */
