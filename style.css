@@ -210,7 +210,7 @@ nav a
     background-position: center;
     position: relative;
     background-color: black;
-    /* background-image: url(./images/big_banner_board_mobile_01.png); */
+    background-image: url(./images/big_banner_automated_recognition_ecg_mobile_01.png);
 }
 
 #big_banner_bg_gene_stent,
@@ -222,7 +222,7 @@ nav a
     background-position: center;
     position: relative;
     background-color: black;
-    /* background-image: url(./images/big_banner_board_mobile_01.png); */
+    background-image: url(./images/big_banner_gene_stent_mobile_01.png);
 }
 
 .big_banner_text
@@ -242,9 +242,8 @@ nav a
 .big_banner_text h1
 {
     color: rgb(231, 231, 231);
-    font-size: 30px;
+    font-size: 1.5em;
     text-align: center;
-    margin-bottom: 5%;
     font-family: 'Noto Serif TC', 'DFKai-SB', 'STKaiti', 'serif';
     font-weight: 700;
     text-shadow: black 0.1em 0.1em 0.2em;
@@ -255,51 +254,39 @@ nav a
     margin-bottom: 8px;
 }
 .slick-slide[data-href="automated_recognition_echocardiography.html"] .big_banner_text h1:nth-of-type(2){
-    line-height: 30px;
+    white-space: nowrap;
+    margin-bottom: 5%;
+    line-height: 34px;
 }
 
 .slick-slide[data-href="9b_interaction_board.html"] .big_banner_text h1:nth-of-type(1){
+    white-space: nowrap;
     margin-bottom: 8px;
 }
 .slick-slide[data-href="9b_interaction_board.html"] .big_banner_text h1:nth-of-type(2){
-    margin-bottom: 4px;
-    line-height: 30px;
-}
-.slick-slide[data-href="9b_interaction_board.html"] .big_banner_text h1:nth-of-type(3){
-    line-height: 30px;
+    margin-bottom: 5%;
+    line-height: 34px;
 }
 
 .slick-slide[data-href="automated_recognition_ecg.html"] .big_banner_text h1:nth-of-type(1){
+    white-space: nowrap;
     margin-bottom: 8px;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 .slick-slide[data-href="automated_recognition_ecg.html"] .big_banner_text h1:nth-of-type(2){
-    margin-bottom: 4px;
+    margin-bottom: 5%;
     text-shadow: black 0.1em 0.1em 0.2em;
-    line-height: 30px;
-}
-.slick-slide[data-href="automated_recognition_ecg.html"] .big_banner_text h1:nth-of-type(3){
-    text-shadow: black 0.1em 0.1em 0.2em;
-    line-height: 30px;
+    line-height: 34px;
 }
 
 .slick-slide[data-href="gene_stent.html"] .big_banner_text h1:nth-of-type(1){
     margin-bottom: 8px;
-    color:rgb(32, 32, 32);
+    color:rgb(231, 231, 231);
 }
 .slick-slide[data-href="gene_stent.html"] .big_banner_text h1:nth-of-type(2){
-    margin-bottom: 4px;
-    color:rgb(32, 32, 32);
-    line-height: 30px;
-}
-.slick-slide[data-href="gene_stent.html"] .big_banner_text h1:nth-of-type(3){
-    margin-bottom: 4px;
-    color:rgb(32, 32, 32);
-    line-height: 30px;
-}
-.slick-slide[data-href="gene_stent.html"] .big_banner_text h1:nth-of-type(4){
-    color:rgb(32, 32, 32);
-    line-height: 30px;
+    color:rgb(231, 231, 231);
+    line-height: 34px;
+    margin-bottom: 5%;
 }
 
     .big_banner_text p
@@ -325,11 +312,7 @@ nav a
         margin: 0;
     }
     .slick-slide[data-href="9b_interaction_board.html"] .big_banner_text p:nth-of-type(2){
-        margin: 0;
-    }
-    .slick-slide[data-href="9b_interaction_board.html"] .big_banner_text p:nth-of-type(3){
-        margin: 0;
-        padding-left: 8px;
+        margin-bottom: 5%;
     }
 
     .slick-slide[data-href="automated_recognition_ecg.html"] .big_banner_text p:nth-of-type(1){
@@ -337,25 +320,17 @@ nav a
         text-shadow: black 0.1em 0.1em 0.2em;
     }
     .slick-slide[data-href="automated_recognition_ecg.html"] .big_banner_text p:nth-of-type(2){
-        margin: 0;
-        text-shadow: black 0.1em 0.1em 0.2em;
-    }
-    .slick-slide[data-href="automated_recognition_ecg.html"] .big_banner_text p:nth-of-type(3){
-        margin: 0;
+        margin-bottom: 5%;
         text-shadow: black 0.1em 0.1em 0.2em;
     }
 
     .slick-slide[data-href="gene_stent.html"] .big_banner_text p:nth-of-type(1){
         margin: 0;
-        color: rgb(32, 32, 32);
+        color: rgb(231, 231, 231);
     }
     .slick-slide[data-href="gene_stent.html"] .big_banner_text p:nth-of-type(2){
-        margin: 0;
-        color: rgb(32, 32, 32);
-    }
-    .slick-slide[data-href="gene_stent.html"] .big_banner_text p:nth-of-type(3){
-        margin: 0;
-        color: rgb(32, 32, 32);
+        margin-bottom: 5%;
+        color: rgb(231, 231, 231);
     }
 
     .big_banner_text .button
@@ -466,11 +441,11 @@ footer
     background-image: url(./images/lap_top2.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: top center;
     max-width: 80%;
     margin: 0 auto;
     height: 0;
-    padding-bottom: 68%;
+    padding-bottom: 52%;
 }
 
 .flow_image_l_wrap
@@ -522,6 +497,11 @@ footer
         margin-top: 2%;
     }
 
+    .article_container .center
+    {
+        text-align: center!important;
+    }
+
 .article_container_hidden
 {
     overflow: auto;
@@ -551,6 +531,7 @@ footer
 {
     max-width: 80%;
     margin: 0 auto;
+    text-align: center;
     padding-top: 5%;
     border-top: 1px solid rgb(196, 196, 196);
 }
@@ -558,8 +539,10 @@ footer
     .introduce_video_container h1
     {
         margin-bottom: 5%;
-        font-size: 26px;
         color: black;
+        font-size: 1.5em;
+        font-weight: 700;
+        font-family: 'Noto Serif TC', 'DFKai-SB', 'STKaiti', 'serif';
     }
 
     .introduce_video_container a
@@ -1544,10 +1527,131 @@ footer
 {
     padding: 15px;
 }
+#solutions
+{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 11%;
+    padding-right: 11%;
+}
+#solutions small.award_title
+{
+    display: block;
+    color: #8c6e4a;
+    text-decoration: underline;
+    font-size: 1em;
+}
+#solutions small.award_title a:link
+{
+    color:#8c6e4a;
+}
+#solutions small.award_title a:visited
+{
+    color:#8c6e4a;
+}
+#solutions small.award_title a:hover
+{
+    color:#f0c48e;
+}
+#solutions small.award_title a:active
+{
+    color:#8c6e4a;
+}
+#solutions .intro_title
+{
+    margin: 0 0 3rem 0;
+}
+#solutions .intro_title h1
+{
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: 'Noto Serif TC', 'DFKai-SB', 'STKaiti', 'serif';
+}
+#solutions .container
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+#solutions .container .figures
+{
+    order:1;
+    width: 100%;
+    max-width: 100%;
+    padding: 0.5rem 1rem;
+    flex: 0 0 100%;
+    background-color: #d8ecff;
+}
+#solutions .container .figures h1.award_title
+{
+    display: none;
+    font-weight: 700;
+    font-size: 1.3em;
+    margin-bottom: 1rem;
+    color: #8c6e4a;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#solutions .container .figures h1.award_title a:link
+{
+    color:#8c6e4a;
+}
+#solutions .container .figures h1.award_title a:visited
+{
+    color:#8c6e4a;
+}
+#solutions .container .figures h1.award_title a:hover
+{
+    color:#f0c48e;
+}
+#solutions .container .figures h1.award_title a:active
+{
+    color:#8c6e4a;
+}
+#solutions .container .describe
+{
+    order:0;
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding-right: 1rem;
+}
+#solutions .container .describe .align
+{
+    width: fit-content;
+    margin: 0 auto;
+}
+#solutions .container .describe.pb
+{
+    padding-bottom: 3em;
+}
+#solutions .container .describe h1
+{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-family: 'Noto Serif TC', 'DFKai-SB', 'STKaiti', 'serif';
+    font-size: 1.5em;
+}
+#solutions .container .describe h1.project_name
+{
+    font-size: 1.7em;
+}
+#solutions .container .describe span
+{
+    font-size: 1em;
+}
+#solutions .container .describe .mb
+{
+    margin-bottom: 3rem;
+}
 
 /* 以下是桌機板 */
+
 @media screen and (min-width:768px)
-{   
+{
     #app
     {
         padding-top: 96px;
@@ -1634,13 +1738,13 @@ footer
     #big_banner_bg_automated_recognition_ecg,
     .slick-slide[data-href="automated_recognition_ecg.html"]{
         height: 548px;
-        background-image: url(./images/big_banner_automated_recognition_ecg_desktop.png);
+        background-image: url(./images/big_banner_automated_recognition_ecg_desktop_01.png);
     }
 
     #big_banner_bg_gene_stent,
     .slick-slide[data-href="gene_stent.html"]{
         height: 548px;
-        background-image: url(./images/big_banner_genestent_desktop.png);
+        background-image: url(./images/big_banner_gene_stent_desktop_01.png);
     }
 
     .big_banner_text
@@ -1656,7 +1760,6 @@ footer
     {
         color: rgb(231, 231, 231);
         font-size: 30px;
-        margin-bottom: 5%;
         text-align: left;
         font-family: 'Noto Serif TC', 'DFKai-SB', 'STKaiti', 'serif';
         font-weight: 700;
@@ -1668,26 +1771,22 @@ footer
     }
 
     .slick-slide[data-href="9b_interaction_board.html"] .big_banner_text h1:nth-of-type(2){
-        padding-left: 8px;
-    }
-    .slick-slide[data-href="9b_interaction_board.html"] .big_banner_text h1:nth-of-type(3){
+        max-width: 30rem;
         padding-left: 8px;
     }
 
     .slick-slide[data-href="automated_recognition_ecg.html"] .big_banner_text h1:nth-of-type(2){
-        padding-left: 8px;
-    }
-    .slick-slide[data-href="automated_recognition_ecg.html"] .big_banner_text h1:nth-of-type(3){
+        max-width: 36rem;
         padding-left: 8px;
     }
 
+    .slick-slide[data-href="gene_stent.html"] .big_banner_text h1:nth-of-type(1){
+        color: rgb(32, 32, 32);
+    }
     .slick-slide[data-href="gene_stent.html"] .big_banner_text h1:nth-of-type(2){
-        padding-left: 8px;
-    }
-    .slick-slide[data-href="gene_stent.html"] .big_banner_text h1:nth-of-type(3){
-        padding-left: 8px;
-    }
-    .slick-slide[data-href="gene_stent.html"] .big_banner_text h1:nth-of-type(4){
+        max-width: 36rem;
+        color: rgb(32, 32, 32);
+        margin-bottom: 5%;
         padding-left: 8px;
     }
 
@@ -1711,23 +1810,23 @@ footer
         }
 
         .slick-slide[data-href="9b_interaction_board.html"] .big_banner_text p:nth-of-type(2){
-            padding-left: 8px;
-        }
-        .slick-slide[data-href="9b_interaction_board.html"] .big_banner_text p:nth-of-type(3){
+            max-width: 33rem;
             padding-left: 8px;
         }
 
         .slick-slide[data-href="automated_recognition_ecg.html"] .big_banner_text p:nth-of-type(2){
-            padding-left: 8px;
-        }
-        .slick-slide[data-href="automated_recognition_ecg.html"] .big_banner_text p:nth-of-type(3){
+            max-width: 29rem;
+            margin: 0;
             padding-left: 8px;
         }
 
-        .slick-slide[data-href="gene_stent.html"] .big_banner_text p:nth-of-type(2){
-            padding-left: 8px;
+        .slick-slide[data-href="gene_stent.html"] .big_banner_text p:nth-of-type(1){
+            color: rgb(32, 32, 32);
         }
-        .slick-slide[data-href="gene_stent.html"] .big_banner_text p:nth-of-type(3){
+        .slick-slide[data-href="gene_stent.html"] .big_banner_text p:nth-of-type(2){
+            max-width: 33rem;
+            color: rgb(32, 32, 32);
+            margin: 0;
             padding-left: 8px;
         }
 
@@ -1807,11 +1906,6 @@ footer
         font-size: 16px;
         top: 22.5%;
         right: 12.5%;
-    }
-
-    .introduce_video_container h1
-    {
-        font-size: 32px;
     }
 
     .introduce_video_container button
@@ -2098,11 +2192,97 @@ footer
 
 }
 
+/* 以下是平板 solutions */
+@media screen and (min-width: 1200px)
+{
+    #solutions
+    {
+        max-width: 1170px;
+    }
+    #solutions .container .figures h1.award_title
+    {
+        font-size: 1.25em;
+        display: block;
+    }
+    #solutions .container .describe h1.project_name
+    {
+        font-size: 1.3em;
+    }
+    #solutions .container .describe span
+    {
+        font-size: 1em;
+    }
+    #solutions .container .describe h1
+    {
+        font-size: 1.3em;
+    }
+    #solutions .container .describe .mb
+    {
+        margin-bottom: 3rem;
+    }
+    #solutions .intro_title h1
+    {
+        font-size: 1.3em;
+    }
+    #solutions .container .figures
+    {
+        max-width: 50%;
+        flex: 0 0 50%;
+        padding-top: 4rem;
+    }
+    #solutions .container .describe
+    {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    #solutions small.award_title
+    {
+        display: none;
+    }
+}
 /* 以下是平板 */
 @media screen and (min-width:1273px) 
 {
     #app
     {
         padding-top: 80px;
+    }
+}
+/* 以下是桌機 solutions */
+@media screen and (min-width:1400px)
+{
+    #solutions
+    {
+        max-width: 100%;
+    }
+    #solutions small.award_title
+    {
+        display: none;
+    }
+    #solutions .container .describe .align
+    {
+        width: fit-content;
+        margin: 0 auto;
+    }
+    #solutions .container .describe h1.project_name
+    {
+        font-size: 2em;
+    }
+    #solutions .container .describe span
+    {
+        font-size: 1.25em;
+    }
+    #solutions .container .figures h1.award_title
+    {
+        font-size: 1.75em;
+        display: block;
+    }
+    #solutions .container .describe h1
+    {
+        font-size: 1.5em;
+    }
+    #solutions .intro_title h1
+    {
+        font-size: 2em;
     }
 }
