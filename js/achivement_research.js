@@ -28,8 +28,8 @@
                     </ul> \
                     <ul class="paper_status"> \
                         <li class="article_index"> \
-                            <span class="count">0</span> \
-                            Article \
+                            <span class="count"></span> \
+                            <!-- Article --> \
                         </li> \
                     </ul> \
                 </article> \
@@ -62,7 +62,7 @@
 
         // let maxPage = Math.ceil(parseInt(data["search-results"]["opensearch:totalResults"])/25)
         let articleCount = parseInt(data["search-results"]["opensearch:totalResults"])
-        console.log('maxPage',maxPage)
+
         let papers = data["search-results"]["entry"]
 
         for(let paperDetail of papers) {
@@ -74,7 +74,7 @@
     }
 
     async function getArticles (papers) {
-        console.log(papers)
+
         let results = [];
 
         for (let paper of papers) {
@@ -106,6 +106,7 @@
             // 所有 paper 按日期排序
             results.sort((a, b) => a["prism:coverDate"] - b["prism:coverDate"]);
         }
+
         return [results, results.length]
     }    
 
@@ -128,37 +129,39 @@
         for (let id of membersScopus) {
             // [[醫生1_scopus_id_1, 醫生1_scopus_id_2], [醫生2_scopus_id_1]]]
             // integratePapers 整合醫生paper 檔案，因為可能一個醫生會擁有多個 json 檔案，所以需要先合併成一個存在解構賦值papers變數裡面 
-            [papers, papersCount] = await integratePapers(id);
-            [articles, articlesCount] = await getArticles(papers);
+            // Zen 取消掉顯示 Article 數量
+            // [papers, papersCount] = await integratePapers(id);
+            // Zen 取消掉顯示 Article 數量
+            // [articles, articlesCount] = await getArticles(papers);
 
             // 開始收集前2筆的 article title 以及 年份日期 連結
-            let getTopTwoArticles = []
-            // i<2 只拿前 2 筆的 paper 資料
-            for (i=0;i<2;i++) {
+            // let getTopTwoArticles = []
+            // // i<2 只拿前 2 筆的 paper 資料
+            // for (i=0;i<2;i++) {
 
-                getTopTwoArticles.push(
-                    {
-                        articleTitle: articles[i]["dc:title"],
-                        coverDate: articles[i]["prism:coverDate"],
-                        link: articles[i]["prism:doi"]
-                    }
-                )
-            }
+            //     getTopTwoArticles.push(
+            //         {
+            //             articleTitle: articles[i]["dc:title"],
+            //             coverDate: articles[i]["prism:coverDate"],
+            //             link: articles[i]["prism:doi"]
+            //         }
+            //     )
+            // }
 
-            let personalPaperList = '<div class="papers">'
-            for (article of getTopTwoArticles) {
-                // personalPaperList 是前 2 筆的 paper HTML資料
-                personalPaperList += `\
-                    <article class="paper_list_results"> \
-                        <a href="http://dx.doi.org/${article.link}"></a> \
-                        <header class="paper_list"> \
-                            <h3>${article.articleTitle}</h3> \
-                        </header> \
-                        <p>Article, ${article.coverDate}</p> \
-                    </article>`
-            }
-            personalPaperList += '</div>'
-            
+            // let personalPaperList = '<div class="papers">'
+            // for (article of getTopTwoArticles) {
+            //     // personalPaperList 是前 2 筆的 paper HTML資料
+            //     personalPaperList += `\
+            //         <article class="paper_list_results"> \
+            //             <a href="http://dx.doi.org/${article.link}"></a> \
+            //             <header class="paper_list"> \
+            //                 <h3>${article.articleTitle}</h3> \
+            //             </header> \
+            //             <p>Article, ${article.coverDate}</p> \
+            //         </article>`
+            // }
+            // personalPaperList += '</div>'
+
             // 再一個一個比對 achievement HTML頁面上的 scopus_id
             $('.member').each(function (index, value) {
                 // data 可以找到 data-* 的值
@@ -168,7 +171,6 @@
                     $(this).find(".article_index .count").text(articlesCount)
                     // 把該醫師最新 2 筆資料 append 進該醫師的名下
                     // $(this).append(personalPaperList)
-
                     let paperLinkOutsideButton = `<div><a href="${memberdata[index].outside_homepage}" class="paper_link_outside_button"><h3>查看他所有研究文獻</h3></a></div>`
                     // 把"連到該醫師的臨醫所首頁"的按鈕(paperLinkOutsideButton) append 進該醫師的名下
                     $(this).append(paperLinkOutsideButton)

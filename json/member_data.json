@@ -1,5 +1,12 @@
 [
+    {"name": "蘇慧貞", "en_name": "Su, Huey Jen", "occupation": "成大校長", "scopus_id": "[56437192700]", "outside_homepage": "https://researchoutput.ncku.edu.tw/zh/persons/huey-jen-su"},
+    {"name": "沈孟儒", "en_name": "Shen, Meng Ru", "occupation": "成大醫院院長", "scopus_id": "[7401466295]", "outside_homepage": "https://researchoutput.ncku.edu.tw/zh/persons/meng-ru-shen"},
     {"name": "劉秉彥", "en_name": "Liu, Ping Yen", "occupation": "教授兼臨床醫學研究中心主任兼臨床醫學研究所所長兼主治醫師", "scopus_id": "[56460576600, 57226617602]", "outside_homepage": "https://researchoutput.ncku.edu.tw/zh/persons/ping-yen-liu"},
+    {"name": "蔡依珊", "en_name": "Tsai, Yi Shan", "occupation": "副教授兼主治醫師", "scopus_id": "[8698463200]", "outside_homepage": "https://researchoutput.ncku.edu.tw/zh/persons/yi-shan-tsai"},
+    {"name": "謝錫堃", "en_name": "Shieh, Ce Kuen", "occupation": "教授", "scopus_id": "[35606365800]", "outside_homepage": "https://researchoutput.ncku.edu.tw/zh/persons/ce-kuen-shieh"},
+    {"name": "詹寶珠", "en_name": "Chung, Pau Choo", "occupation": "教授", "scopus_id": "[7201442829]", "outside_homepage": "https://researchoutput.ncku.edu.tw/zh/persons/pau-choo-chung"},
+    {"name": "梁勝富", "en_name": "Liang, Sheng Fu", "occupation": "教授", "scopus_id": "[7402145687]", "outside_homepage": "https://researchoutput.ncku.edu.tw/zh/persons/sheng-fu-liang"},
+    {"name": "蘇佩芳", "en_name": "Su, Pei Fang", "occupation": "副教授", "scopus_id": "[25823485600]", "outside_homepage": "https://researchoutput.ncku.edu.tw/zh/persons/pei-fang-su"},
     {"name": "劉嚴文", "en_name": "Liu, Yen Wen", "occupation": "教授兼主治醫師", "scopus_id": "[7410227143, 57226619252]", "outside_homepage": "https://researchoutput.ncku.edu.tw/zh/persons/yen-wen-liu-2"},
     {"name": "李柏增", "en_name": "Lee, Po Tsang", "occupation": "臨床講師兼主治醫師", "scopus_id": "[54791340900]", "outside_homepage": "https://researchoutput.ncku.edu.tw/zh/persons/po-tseng-lee"},
     {"name": "陳柏偉", "en_name": "Chen, Po Wei", "occupation": "主治醫生", "scopus_id": "[56518568300]", "outside_homepage": "https://researchoutput.ncku.edu.tw/zh/persons/po-wei-chen"},
